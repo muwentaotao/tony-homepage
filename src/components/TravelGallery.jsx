@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import useScrollReveal from '../hooks/useScrollReveal';
 
 const places = [
@@ -23,35 +23,12 @@ const places = [
 ];
 
 function TravelCard({ src, title, subtitle }) {
-  const [hasImage, setHasImage] = useState(false);
-  const [imgError, setImgError] = useState(false);
-
-  useEffect(() => {
-    const img = new Image();
-    img.onload = () => setHasImage(true);
-    img.onerror = () => {
-      console.error('[TravelGallery] Image failed to load:', src);
-      setHasImage(false);
-      setImgError(true);
-    };
-    img.src = src;
-  }, [src]);
+  const [error, setError] = useState(false);
 
   return (
     <div className="glass-card rounded-xl overflow-hidden aspect-[4/3] relative group cursor-pointer">
-      {hasImage ? (
-        <img
-          src={src}
-          alt={title}
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-          loading="lazy"
-          onError={(e) => {
-            console.error('[TravelGallery] img onError:', src, e);
-            setImgError(true);
-          }}
-        />
-      ) : (
-        /* 高级深色渐变占位 */
+      {error ? (
+        /* 图片加载失败时显示高级深色渐变占位 */
         <div className="absolute inset-0 bg-gradient-to-br from-[#0f0f18] via-[#151520] to-[#0a0a12]">
           <div
             className="absolute inset-0 opacity-[0.04]"
@@ -76,6 +53,15 @@ function TravelCard({ src, title, subtitle }) {
             </svg>
           </div>
         </div>
+      ) : (
+        /* 默认直接渲染图片，加载失败时触发 onError */
+        <img
+          src={src}
+          alt={title}
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          loading="lazy"
+          onError={() => setError(true)}
+        />
       )}
 
       {/* 底部暗色渐变遮罩 + 文字 */}
@@ -127,4 +113,3 @@ export default function TravelGallery() {
     </section>
   );
 }
-// force redeploy 1778826427
