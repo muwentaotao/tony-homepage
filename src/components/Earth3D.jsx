@@ -1,11 +1,31 @@
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState, useMemo } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Stars } from '@react-three/drei';
 import * as THREE from 'three';
 
-function FallbackEarth({ scale = 1.55 }) {
+/* ─── 设备配置 ─── */
+function getDeviceConfig() {
+  const isMobile =
+    typeof window !== 'undefined' &&
+    window.matchMedia('(max-width: 640px)').matches;
+  return {
+    isMobile,
+    nightPath: isMobile
+      ? '/textures/earth-night-mobile.jpg'
+      : '/textures/earth-night.jpg',
+    desktopNightPath: '/textures/earth-night.jpg',
+    scale: isMobile ? 1.0 : 1.55,
+    cameraZ: isMobile ? 4.8 : 3.6,
+    fov: isMobile ? 45 : 42,
+    dpr: isMobile ? [1, 1.5] : [1, 2],
+    starsCount: isMobile ? 250 : 500,
+  };
+}
+
+/* ─── 占位地球（贴图加载前显示） ─── */
+function FallbackEarth() {
   return (
-    <group scale={[scale, scale, scale]}>
+    <group>
       <mesh>
         <sphereGeometry args={[1, 48, 48]} />
         <meshBasicMaterial color="#12121a" />
@@ -22,13 +42,13 @@ function FallbackEarth({ scale = 1.55 }) {
   );
 }
 
-function Earth({ textures }) {
+/* ─── 带贴图的地球 ─── */
+function Earth({ textures, config }) {
   const earthRef = useRef();
+  const meshRef = useRef();
   const { gl } = useThree();
-  const hasDay = textures.day !== null;
-  const hasNight = textures.night !== null;
 
-  // 提高贴图清晰度：各向异性过滤 + 禁用 mipmap 避免自动降级模糊
+  // 提高贴图清晰度
   useEffect(() => {
     const maxAniso = gl.capabilities.getMaxAnisotropy();
     [textures.day, textures.night].forEach((tex) => {
@@ -41,25 +61,42 @@ function Earth({ textures }) {
     });
   }, [textures, gl]);
 
+  // 自动旋转 + 贴图淡入
   useFrame((state, delta) => {
     if (earthRef.current) {
       earthRef.current.rotation.y += delta * 0.03;
     }
+    const mat = meshRef.current?.material;
+    if (mat && mat.opacity < 1) {
+      mat.opacity = Math.min(1, mat.opacity + delta * 1.5);
+    }
   });
 
+  const hasDay = textures.day !== null;
+  const hasNight = textures.night !== null;
+
+  // 双贴图/单贴图均缺失 → 降级为占位
   if (!hasDay && !hasNight) {
     return (
-      <group ref={earthRef} rotation={[0.12, 2.6, 0]} scale={[1.55, 1.55, 1.55]}>
+      <group
+        ref={earthRef}
+        rotation={[0.12, 2.6, 0]}
+        scale={[config.scale, config.scale, config.scale]}
+      >
         <FallbackEarth />
       </group>
     );
   }
 
   return (
-    <group ref={earthRef} rotation={[0.12, 2.6, 0]} scale={[1.55, 1.55, 1.55]}>
+    <group
+      ref={earthRef}
+      rotation={[0.12, 2.6, 0]}
+      scale={[config.scale, config.scale, config.scale]}
+    >
       {hasDay && hasNight ? (
-        /* 双贴图模式：白天地形 + 夜晚灯光自发光 */
-        <mesh>
+        /* 双贴图模式 */
+        <mesh ref={meshRef}>
           <sphereGeometry args={[1, 64, 64]} />
           <meshStandardMaterial
             map={textures.day}
@@ -68,17 +105,25 @@ function Earth({ textures }) {
             emissiveIntensity={1.2}
             roughness={1.0}
             metalness={0.0}
+            transparent
+            opacity={0}
           />
         </mesh>
       ) : (
-        /* 单贴图模式：纯夜景 */
-        <mesh>
+        /* 单贴图模式 */
+        <mesh ref={meshRef}>
           <sphereGeometry args={[1, 64, 64]} />
-          <meshBasicMaterial map={textures.night} toneMapped={false} color="#ffffff" />
+          <meshBasicMaterial
+            map={textures.night}
+            toneMapped={false}
+            color="#ffffff"
+            transparent
+            opacity={0}
+          />
         </mesh>
       )}
 
-      {/* 极淡的大气边缘 —— 灰色偏蓝的柔和辉光，克制不抢戏 */}
+      {/* 大气层辉光 */}
       <mesh scale={[1.04, 1.04, 1.04]}>
         <sphereGeometry args={[1, 64, 64]} />
         <meshBasicMaterial
@@ -94,11 +139,10 @@ function Earth({ textures }) {
   );
 }
 
-function Scene() {
+/* ─── 场景 ─── */
+function Scene({ config }) {
   const [textures, setTextures] = useState({ day: null, night: null });
-  const [textureReady, setTextureReady] = useState(false);
-  const hasDay = textures.day !== null;
-  const hasNight = textures.night !== null;
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     const loader = new THREE.TextureLoader();
@@ -108,7 +152,14 @@ function Scene() {
         loader.load('/textures/earth-day.jpg', resolve, undefined, () => resolve(null));
       }),
       new Promise((resolve) => {
-        loader.load('/textures/earth-night.jpg', resolve, undefined, () => resolve(null));
+        loader.load(config.nightPath, resolve, undefined, () => {
+          // 手机端 fallback 到桌面贴图
+          if (config.isMobile) {
+            loader.load(config.desktopNightPath, resolve, undefined, () => resolve(null));
+          } else {
+            resolve(null);
+          }
+        });
       }),
     ]).then(([dayTex, nightTex]) => {
       [dayTex, nightTex].forEach((tex) => {
@@ -136,31 +187,49 @@ function Scene() {
       }
 
       setTextures({ day: dayTex, night: nightTex });
-      setTextureReady(true);
+      setLoaded(true);
     });
-  }, []);
-
-  if (!textureReady) return null;
+  }, [config.nightPath, config.isMobile]);
 
   return (
     <>
-      <Stars radius={80} depth={40} count={500} factor={3} saturation={0} fade speed={0.5} />
-      {/* 双贴图模式下需要环境光让地形可见；单贴图模式 meshBasicMaterial 不依赖光照 */}
-      {hasDay && <ambientLight intensity={0.5} />}
-      <Earth textures={textures} />
+      <Stars
+        radius={80}
+        depth={40}
+        count={config.starsCount}
+        factor={3}
+        saturation={0}
+        fade
+        speed={0.5}
+      />
+      {/* 贴图加载前显示占位地球，加载后淡入真实地球 */}
+      {!loaded && (
+        <group rotation={[0.12, 2.6, 0]} scale={[config.scale, config.scale, config.scale]}>
+          <FallbackEarth />
+        </group>
+      )}
+      {loaded && (
+        <>
+          {textures.day && <ambientLight intensity={0.5} />}
+          <Earth textures={textures} config={config} />
+        </>
+      )}
     </>
   );
 }
 
+/* ─── 主组件 ─── */
 export default function Earth3D() {
+  const config = useMemo(() => getDeviceConfig(), []);
+
   return (
     <div className="fixed inset-0 z-0 pointer-events-none">
       <Canvas
         camera={{
-          fov: 42,
+          fov: config.fov,
           near: 0.1,
           far: 200,
-          position: [0, 0, 3.6],
+          position: [0, 0, config.cameraZ],
         }}
         gl={{
           antialias: true,
@@ -174,9 +243,9 @@ export default function Earth3D() {
           width: '100%',
           height: '100%',
         }}
-        dpr={[1, 2.5]}
+        dpr={config.dpr}
       >
-        <Scene />
+        <Scene config={config} />
       </Canvas>
     </div>
   );
