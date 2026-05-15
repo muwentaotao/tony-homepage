@@ -24,11 +24,16 @@ const places = [
 
 function TravelCard({ src, title, subtitle }) {
   const [hasImage, setHasImage] = useState(false);
+  const [imgError, setImgError] = useState(false);
 
   useEffect(() => {
     const img = new Image();
     img.onload = () => setHasImage(true);
-    img.onerror = () => setHasImage(false);
+    img.onerror = () => {
+      console.error('[TravelGallery] Image failed to load:', src);
+      setHasImage(false);
+      setImgError(true);
+    };
     img.src = src;
   }, [src]);
 
@@ -40,6 +45,10 @@ function TravelCard({ src, title, subtitle }) {
           alt={title}
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
+          onError={(e) => {
+            console.error('[TravelGallery] img onError:', src, e);
+            setImgError(true);
+          }}
         />
       ) : (
         /* 高级深色渐变占位 */
