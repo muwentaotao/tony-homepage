@@ -1,12 +1,8 @@
+import { Routes, Route } from 'react-router-dom';
 import Earth3D from './components/Earth3D';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import AboutCard from './components/AboutCard';
-import EntryCards from './components/EntryCards';
-import TravelGallery from './components/TravelGallery';
-import ThingsBuilt from './components/ThingsBuilt';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import TravelPage from './pages/TravelPage';
 
 function App() {
   return (
@@ -25,15 +21,12 @@ function App() {
       {/* 导航栏 */}
       <Navbar />
 
-      {/* 前景内容层 */}
+      {/* 页面内容 */}
       <div className="relative z-10">
-        <Hero />
-        <AboutCard />
-        <EntryCards />
-        <TravelGallery />
-        <ThingsBuilt />
-        <Contact />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/travel" element={<TravelPage />} />
+        </Routes>
       </div>
     </div>
   );

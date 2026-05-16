@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
-const navItems = [
+const homeNavItems = [
   { label: 'About', href: '#about' },
   { label: 'Travel', href: '#travel' },
   { label: 'Built', href: '#built' },
@@ -9,6 +10,8 @@ const navItems = [
 
 export default function Navbar() {
   const [visible, setVisible] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,7 +21,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleClick = (e, href) => {
+  const handleAnchorClick = (e, href) => {
     e.preventDefault();
     const el = document.querySelector(href);
     if (el) {
@@ -34,27 +37,34 @@ export default function Navbar() {
     >
       <div className="mx-3 sm:mx-6 mt-3">
         <div className="max-w-5xl mx-auto flex items-center justify-between px-5 py-3 rounded-xl border border-tony-border bg-[#0a0a0f]/70 backdrop-blur-xl">
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
+          <Link
+            to="/"
             className="text-tony-text font-light tracking-tight text-lg hover:opacity-80 transition-opacity"
           >
             Tony
-          </a>
+          </Link>
           <div className="flex items-center gap-5 sm:gap-6">
-            {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                onClick={(e) => handleClick(e, item.href)}
+            {isHome ? (
+              // 首页：锚点导航
+              homeNavItems.map((item) => (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  onClick={(e) => handleAnchorClick(e, item.href)}
+                  className="text-sm text-tony-muted hover:text-tony-text transition-colors duration-300"
+                >
+                  {item.label}
+                </a>
+              ))
+            ) : (
+              // 子页面：返回首页
+              <Link
+                to="/"
                 className="text-sm text-tony-muted hover:text-tony-text transition-colors duration-300"
               >
-                {item.label}
-              </a>
-            ))}
+                Home
+              </Link>
+            )}
           </div>
         </div>
       </div>
