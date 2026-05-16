@@ -35,7 +35,7 @@ export default function ThingsBuilt() {
           <h2 className="text-2xl sm:text-3xl font-light text-tony-text mb-2">
             Things I Built
           </h2>
-          <div className="w-12 h-px bg-gradient-to-r from-tony-ice to-transparent" />
+          <div className="w-12 h-px bg-gradient-to-r from-transparent via-tony-ice to-transparent mx-auto" />
         </div>
 
         {/* 项目卡片 */}

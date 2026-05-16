@@ -3,11 +3,11 @@ import useScrollReveal from '../hooks/useScrollReveal';
 export default function AboutCard() {
   const { ref, isVisible } = useScrollReveal();
   const tags = [
-    '历史老师',
-    '旅行记录者',
-    'AI 网页探索者',
-    'Vibe Coding',
     '地图爱好者',
+    '课堂实验者',
+    '终身学习者',
+    '影像记录者',
+    '好奇收藏家',
   ];
 
   return (
@@ -20,23 +20,13 @@ export default function AboutCard() {
     >
       <div className="max-w-4xl mx-auto">
         <div className="glass-card rounded-2xl p-8 sm:p-10 flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
-          {/* 头像占位 */}
+          {/* 头像 */}
           <div className="shrink-0">
-            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-tony-border to-tony-border-hover flex items-center justify-center border border-tony-border">
-              <svg
-                className="w-10 h-10 sm:w-12 sm:h-12 text-tony-muted"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1}
-                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                />
-              </svg>
-            </div>
+            <img
+              src="/avatar.png"
+              alt="Tony 头像"
+              className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border border-tony-border"
+            />
           </div>
 
           {/* 文字内容 */}

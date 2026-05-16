@@ -1,14 +1,17 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Earth3D from './components/Earth3D';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import TravelPage from './pages/TravelPage';
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="min-h-screen bg-tony-dark relative">
       {/* 全站固定 3D 夜景地球背景 */}
-      <Earth3D />
+      <Earth3D currentPath={location.pathname} />
 
       {/* 全局暗色遮罩 */}
       <div
@@ -28,6 +31,9 @@ function App() {
           <Route path="/travel" element={<TravelPage />} />
         </Routes>
       </div>
+
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }

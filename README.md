@@ -1,16 +1,40 @@
-# React + Vite
+# Tony 的个人主页
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 一个历史老师的数字世界。  
+> 线上地址：https://www.muwentao.com
 
-Currently, two official plugins are available:
+## 简介
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+为 Tony 搭建的高级个人主页网站，以 3D 夜景地球为核心视觉，展示旅行记录、个人项目和想法。不是简历页，而是一个有个人温度的数字空间入口。
 
-## React Compiler
+## 技术栈
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19 + Vite 8
+- Tailwind CSS v4（Vite 插件方案）
+- Three.js + React Three Fiber（3D 夜景地球）
+- React Router（多路由 SPA）
+- Leaflet + React-Leaflet（旅行地图）
 
-## Expanding the ESLint configuration
+## 页面
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **首页 `/`** — 3D 地球背景 + 个人介绍 + 旅行照片墙 + 项目展示 + 联系方式
+- **旅行地图 `/travel`** — Leaflet 交互地图 + 旅行档案卡片
+
+## 本地开发
+
+```bash
+npm install
+npm run dev
+```
+
+开发服务器默认运行在 `http://localhost:5173/`。
+
+## 构建
+
+```bash
+npm run build
+```
+
+## 部署
+
+项目通过 Vercel 自动部署，推送至 `main` 分支后自动构建上线。

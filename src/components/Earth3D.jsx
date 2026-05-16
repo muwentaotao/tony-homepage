@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState, useMemo } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Stars } from '@react-three/drei';
 import * as THREE from 'three';
@@ -40,6 +40,19 @@ function FallbackEarth() {
       </mesh>
     </group>
   );
+}
+
+/* ─── 同步 camera 参数（响应 resize） ─── */
+function CameraSync({ config }) {
+  const { camera } = useThree();
+
+  useEffect(() => {
+    camera.fov = config.fov;
+    camera.position.z = config.cameraZ;
+    camera.updateProjectionMatrix();
+  }, [config, camera]);
+
+  return null;
 }
 
 /* ─── 带贴图的地球 ─── */
@@ -214,13 +227,43 @@ function Scene({ config }) {
           <Earth textures={textures} config={config} />
         </>
       )}
+      <CameraSync config={config} />
     </>
   );
 }
 
 /* ─── 主组件 ─── */
-export default function Earth3D() {
-  const config = useMemo(() => getDeviceConfig(), []);
+export default function Earth3D({ currentPath }) {
+  const [config, setConfig] = useState(() => getDeviceConfig());
+  const [frameloop, setFrameloop] = useState('always');
+
+  // 响应 resize（throttle 200ms）
+  useEffect(() => {
+    let timeout;
+    const handleResize = () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        setConfig(getDeviceConfig());
+      }, 200);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      clearTimeout(timeout);
+    };
+  }, []);
+
+  // 页面不可见时暂停渲染（节省 GPU / 电池）
+  useEffect(() => {
+    const handleVisibility = () => {
+      setFrameloop(document.hidden ? 'never' : 'always');
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => document.removeEventListener('visibilitychange', handleVisibility);
+  }, []);
+
+  const isTravelPage = currentPath === '/travel';
+  const effectiveFrameloop = isTravelPage || frameloop === 'never' ? 'never' : 'always';
 
   return (
     <div className="fixed inset-0 z-0 pointer-events-none">
@@ -244,6 +287,7 @@ export default function Earth3D() {
           height: '100%',
         }}
         dpr={config.dpr}
+        frameloop={effectiveFrameloop}
       >
         <Scene config={config} />
       </Canvas>
