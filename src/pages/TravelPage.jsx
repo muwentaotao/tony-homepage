@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import TravelMap from '../components/TravelMap';
 
 const stats = [
@@ -37,14 +37,22 @@ const trips = [
 export default function TravelPage() {
   const [activeId, setActiveId] = useState(null);
 
+  // 进入页面时自动滚动到地图区域
+  useEffect(() => {
+    const mapSection = document.getElementById('travel-map-section');
+    if (mapSection) {
+      mapSection.scrollIntoView({ behavior: 'instant', block: 'start' });
+    }
+  }, []);
+
   const handleMarkerClick = (id) => {
     setActiveId(id);
-    // 滚动到对应卡片
+    // 地图 flyTo（1.8s）+ 停留 1s 后，再滚动到对应卡片
     const card = document.getElementById(`travel-card-${id}`);
     if (card) {
       setTimeout(() => {
         card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }, 300);
+      }, 2800);
     }
   };
 
@@ -74,7 +82,7 @@ export default function TravelPage() {
       </div>
 
       {/* 地图 */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
+      <section id="travel-map-section" className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
         <div
           className="rounded-2xl overflow-hidden border border-tony-border"
           style={{

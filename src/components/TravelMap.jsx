@@ -118,7 +118,7 @@ export default function TravelMap({ onMarkerClick, activeId }) {
       const trip = trips.find((t) => t.id === activeId);
       if (trip) {
         mapInstance.current.flyTo(trip.coords, 4, {
-          duration: 1.2,
+          duration: 1.8,
           easeLinearity: 0.25,
         });
       }
