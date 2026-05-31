@@ -65,7 +65,7 @@ export default async function handler(req, res) {
     const csv = '\uFEFF' + lines.join('\n'); // BOM 让 Excel 正确识别中文
 
     res.setHeader('Content-Type', 'text/csv; charset=utf-8');
-    res.setHeader('Content-Disposition', 'attachment; filename="学生密码表.csv"');
+    res.setHeader('Content-Disposition', 'attachment; filename="students.csv"');
     res.status(200).end(csv);
   } catch (err) {
     console.error('Password export unexpected error:', err);
