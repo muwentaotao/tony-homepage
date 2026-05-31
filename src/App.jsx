@@ -4,6 +4,8 @@ import Earth3D from './components/Earth3D';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import TravelPage from './pages/TravelPage';
+import GraduationPage from './pages/GraduationPage';
+import GraduationAdminPage from './pages/GraduationAdminPage';
 
 function App() {
   const location = useLocation();
@@ -29,6 +31,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/travel" element={<TravelPage />} />
+          <Route path="/graduation" element={<GraduationPage />} />
+          <Route path="/graduation/admin" element={<GraduationAdminPage />} />
         </Routes>
       </div>
 

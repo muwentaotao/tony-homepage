@@ -5,6 +5,17 @@ import Modal from './Modal';
 
 const entries = [
   {
+    title: '2026 届毕业留言',
+    subtitle: 'Graduation 2026',
+    description: '老师写给你的专属毕业留言，只属于你。',
+    to: '/graduation',
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    ),
+  },
+  {
     title: '关于我',
     subtitle: 'About Tony',
     description: '关于我是谁，以及我正在做什么。',
@@ -63,7 +74,7 @@ export default function EntryCards() {
         }`}
       >
         <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-5">
             {entries.map((entry) => {
               if (entry.to) {
                 return (
