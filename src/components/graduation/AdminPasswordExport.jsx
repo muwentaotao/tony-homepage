@@ -16,8 +16,16 @@ export default function AdminPasswordExport() {
       });
 
       if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        alert(data.error || '导出失败');
+        const contentType = res.headers.get('content-type') || '';
+        let errorMsg = '导出失败';
+        if (contentType.includes('application/json')) {
+          const data = await res.json().catch(() => ({}));
+          errorMsg = data.error || '导出失败';
+        } else {
+          const text = await res.text().catch(() => '');
+          errorMsg = text.slice(0, 200) || '导出失败';
+        }
+        alert('导出失败：' + errorMsg);
         return;
       }
 
