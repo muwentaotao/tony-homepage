@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import AdminFilters from './AdminFilters';
 import AdminStudentTable from './AdminStudentTable';
 import AdminSettingsPanel from './AdminSettingsPanel';
+import AdminImportModal from './AdminImportModal';
+import AdminPasswordExport from './AdminPasswordExport';
 
 export default function AdminDashboard() {
   const [students, setStudents] = useState([]);
@@ -10,6 +12,7 @@ export default function AdminDashboard() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [filters, setFilters] = useState({});
+  const [importOpen, setImportOpen] = useState(false);
 
   const token = sessionStorage.getItem('graduation_admin_token');
 
@@ -70,6 +73,10 @@ export default function AdminDashboard() {
     window.location.reload();
   };
 
+  const handleImportSuccess = () => {
+    fetchData();
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -96,6 +103,13 @@ export default function AdminDashboard() {
             <p className="text-sm text-tony-muted mt-1">管理学生留言与板块状态</p>
           </div>
           <div className="flex items-center gap-3">
+            <AdminPasswordExport />
+            <button
+              onClick={() => setImportOpen(true)}
+              className="px-4 py-2 rounded-lg text-sm font-medium bg-[#c4a574]/20 border border-[#c4a574]/40 text-[#c4a574] hover:bg-[#c4a574]/30 transition-all"
+            >
+              批量导入学生
+            </button>
             <Link
               to="/"
               className="text-sm text-tony-muted hover:text-tony-text transition-colors flex items-center gap-1.5"
@@ -149,6 +163,13 @@ export default function AdminDashboard() {
           </p>
         </div>
         <AdminStudentTable students={students} />
+
+        {/* 导入弹窗 */}
+        <AdminImportModal
+          isOpen={importOpen}
+          onClose={() => setImportOpen(false)}
+          onSuccess={handleImportSuccess}
+        />
       </div>
     </div>
   );
