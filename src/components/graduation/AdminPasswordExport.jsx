@@ -33,7 +33,7 @@ export default function AdminPasswordExport() {
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = '学生密码表.xlsx';
+      a.download = '学生密码表.csv';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);

@@ -5,7 +5,6 @@
 import { getDb } from '../_lib/db.js';
 import { verifyAdminToken } from '../_lib/auth.js';
 import { decryptPassword } from '../_lib/passwords.js';
-import * as XLSX from 'xlsx';
 
 const LOGIN_URL = 'https://muwentao.com/graduation';
 
@@ -43,51 +42,33 @@ export default async function handler(req, res) {
       return res.status(500).json({ error: '数据库查询失败: ' + error.message });
     }
 
-    let rows;
-    try {
-      rows = (students || []).map((s) => {
-        const password = decryptPassword(
-          s.password_encrypted,
-          s.password_iv,
-          s.password_auth_tag
-        );
-        return {
-          姓名: s.name,
-          班级: s.class_name,
-          密码: password,
-          登录地址: LOGIN_URL,
-        };
-      });
-    } catch (decryptErr) {
-      console.error('Password decrypt error:', decryptErr);
-      return res.status(500).json({ error: '密码解密失败: ' + decryptErr.message });
-    }
+    // 生成 CSV
+    const headers = ['姓名', '班级', '密码', '登录地址'];
+    const lines = [headers.join(',')];
 
-    // 生成 Excel
-    let buffer;
-    try {
-      const worksheet = XLSX.utils.json_to_sheet(rows);
-      const workbook = XLSX.utils.book_new();
-      XLSX.utils.book_append_sheet(workbook, worksheet, '学生密码表');
-
-      // 设置列宽
-      worksheet['!cols'] = [
-        { wch: 12 },
-        { wch: 15 },
-        { wch: 10 },
-        { wch: 35 },
+    for (const s of students || []) {
+      const password = decryptPassword(
+        s.password_encrypted,
+        s.password_iv,
+        s.password_auth_tag
+      );
+      // CSV 字段中包含逗号时需要加引号
+      const row = [
+        `"${s.name}"`,
+        `"${s.class_name}"`,
+        `"${password}"`,
+        `"${LOGIN_URL}"`,
       ];
-
-      buffer = XLSX.write(workbook, { type: 'buffer', bookType: 'xlsx' });
-    } catch (xlsxErr) {
-      console.error('XLSX generation error:', xlsxErr);
-      return res.status(500).json({ error: 'Excel 生成失败: ' + xlsxErr.message });
+      lines.push(row.join(','));
     }
 
-    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-    res.setHeader('Content-Disposition', 'attachment; filename="学生密码表.xlsx"');
-    res.status(200).send(buffer);
+    const csv = '\uFEFF' + lines.join('\n'); // BOM 让 Excel 正确识别中文
+
+    res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+    res.setHeader('Content-Disposition', 'attachment; filename="学生密码表.csv"');
+    res.status(200).end(csv);
   } catch (err) {
     console.error('Password export unexpected error:', err);
     return res.status(500).json({ error: '导出失败: ' + (err.message || '未知错误') });
   }
+}
