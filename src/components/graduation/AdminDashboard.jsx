@@ -5,6 +5,8 @@ import AdminStudentTable from './AdminStudentTable';
 import AdminSettingsPanel from './AdminSettingsPanel';
 import AdminImportModal from './AdminImportModal';
 import AdminPasswordExport from './AdminPasswordExport';
+import AdminEditStudentModal from './AdminEditStudentModal';
+import AdminPreviewModal from './AdminPreviewModal';
 
 export default function AdminDashboard() {
   const [students, setStudents] = useState([]);
@@ -13,6 +15,8 @@ export default function AdminDashboard() {
   const [error, setError] = useState('');
   const [filters, setFilters] = useState({});
   const [importOpen, setImportOpen] = useState(false);
+  const [editStudent, setEditStudent] = useState(null);
+  const [previewStudentId, setPreviewStudentId] = useState(null);
 
   const token = sessionStorage.getItem('graduation_admin_token');
 
@@ -75,6 +79,18 @@ export default function AdminDashboard() {
 
   const handleImportSuccess = () => {
     fetchData();
+  };
+
+  const handleTableAction = (action) => {
+    if (!action) {
+      fetchData();
+      return;
+    }
+    if (action.action === 'edit') {
+      setEditStudent(action.student);
+    } else if (action.action === 'preview') {
+      setPreviewStudentId(action.student.id);
+    }
   };
 
   if (loading) {
@@ -162,7 +178,22 @@ export default function AdminDashboard() {
             共 {students.length} 条记录
           </p>
         </div>
-        <AdminStudentTable students={students} />
+        <AdminStudentTable students={students} onRefresh={handleTableAction} />
+
+        {/* 编辑弹窗 */}
+        <AdminEditStudentModal
+          isOpen={!!editStudent}
+          onClose={() => setEditStudent(null)}
+          student={editStudent}
+          onSuccess={fetchData}
+        />
+
+        {/* 预览弹窗 */}
+        <AdminPreviewModal
+          isOpen={!!previewStudentId}
+          onClose={() => setPreviewStudentId(null)}
+          studentId={previewStudentId}
+        />
 
         {/* 导入弹窗 */}
         <AdminImportModal
