@@ -747,14 +747,8 @@
           }
         } else if (action === 'home') {
           showHome();
-        } else if (action === 'search') {
-          if (!currentSection) {
-            showTimeline('overview');
-          }
-          setTimeout(function() {
-            searchInput.focus();
-            searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }, currentSection ? 50 : 450);
+        } else if (action === 'main-site') {
+          window.location.href = '/';
         }
       });
       updateCapsuleNav();
