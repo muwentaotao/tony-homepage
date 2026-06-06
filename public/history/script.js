@@ -221,6 +221,7 @@
     var searchClear = document.getElementById('searchClear');
     var searchResultCount = document.getElementById('searchResultCount');
     var inkBg = document.getElementById('inkBg');
+    var capsuleNav = document.getElementById('capsuleNav');
 
     // ===== 加载 manifest =====
     function loadManifest() {
@@ -707,6 +708,56 @@
         });
         mobileTabBar.appendChild(btn);
       });
+      updateCapsuleNav();
+    }
+
+    // ===== 顶部胶囊导航 =====
+    function updateCapsuleNav() {
+      if (!capsuleNav) return;
+      var buttons = capsuleNav.querySelectorAll('.capsule-nav-btn');
+      buttons.forEach(function(btn) {
+        var section = btn.getAttribute('data-section');
+        var action = btn.getAttribute('data-action');
+        var isActive = section ? section === currentSection : action === 'home' && !currentSection;
+        btn.classList.toggle('active', isActive);
+        if (isActive) {
+          btn.setAttribute('aria-current', 'page');
+        } else {
+          btn.removeAttribute('aria-current');
+        }
+      });
+    }
+
+    function initCapsuleNav() {
+      if (!capsuleNav) return;
+      capsuleNav.addEventListener('click', function(e) {
+        var btn = e.target;
+        while (btn && btn !== capsuleNav && !btn.classList.contains('capsule-nav-btn')) {
+          btn = btn.parentNode;
+        }
+        if (!btn || btn === capsuleNav) return;
+        var section = btn.getAttribute('data-section');
+        var action = btn.getAttribute('data-action');
+
+        if (section) {
+          if (currentSection) {
+            switchSection(section);
+          } else {
+            showTimeline(section);
+          }
+        } else if (action === 'home') {
+          showHome();
+        } else if (action === 'search') {
+          if (!currentSection) {
+            showTimeline('overview');
+          }
+          setTimeout(function() {
+            searchInput.focus();
+            searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, currentSection ? 50 : 450);
+        }
+      });
+      updateCapsuleNav();
     }
 
     // ===== 渲染时间轴内容 =====
@@ -947,6 +998,7 @@
       searchInput.value = '';
       searchClear.classList.remove('visible');
       searchResultCount.textContent = '';
+      updateCapsuleNav();
 
       if (inkBg) {
         inkBg.classList.remove('home');
@@ -994,6 +1046,7 @@
       searchInput.value = '';
       searchClear.classList.remove('visible');
       searchResultCount.textContent = '';
+      updateCapsuleNav();
 
       if (inkBg) {
         inkBg.classList.remove('china');
@@ -1166,16 +1219,17 @@
 
     // ===== 返回按钮 =====
     backBtn.addEventListener('click', function() {
-      window.location.href = '/';
+      showHome();
     });
     mobileBackBtn.addEventListener('click', function() {
-      window.location.href = '/';
+      showHome();
     });
 
     // ===== 启动 =====
     document.addEventListener('DOMContentLoaded', function() {
       initCards();
       initAboutToggle();
+      initCapsuleNav();
       initDesktopInteraction();
       initDetailPanel();
       initSearch();

@@ -67,6 +67,37 @@
     <div class="ink-overlay"></div>
   </div>
 
+  <!-- 顶部悬浮胶囊导航 -->
+  <nav class="capsule-nav" id="capsuleNav" aria-label="历史时间轴导航">
+    <div class="capsule-nav-scroll">
+      <button class="capsule-nav-btn active" type="button" data-action="home" aria-label="首页">
+        <span class="capsule-nav-icon">卷</span>
+        <span class="capsule-nav-label">首页</span>
+      </button>
+      <button class="capsule-nav-btn" type="button" data-section="overview" aria-label="中国历史">
+        <span class="capsule-nav-icon">史</span>
+        <span class="capsule-nav-label">中国历史</span>
+      </button>
+      <button class="capsule-nav-btn" type="button" data-section="ancient" aria-label="中国古代史">
+        <span class="capsule-nav-icon">古</span>
+        <span class="capsule-nav-label">中国古代史</span>
+      </button>
+      <button class="capsule-nav-btn" type="button" data-section="modernEarly" aria-label="中国近代史">
+        <span class="capsule-nav-icon">近</span>
+        <span class="capsule-nav-label">中国近代史</span>
+      </button>
+      <button class="capsule-nav-btn" type="button" data-section="modern" aria-label="中国现代史">
+        <span class="capsule-nav-icon">现</span>
+        <span class="capsule-nav-label">中国现代史</span>
+      </button>
+      <span class="capsule-nav-divider" aria-hidden="true"></span>
+      <button class="capsule-nav-btn capsule-search-btn" type="button" data-action="search" aria-label="搜索">
+        <span class="capsule-nav-icon">搜</span>
+        <span class="capsule-nav-label">搜索</span>
+      </button>
+    </div>
+  </nav>
+
   <!-- 页面内容 -->
   <div class="page-wrapper">
     <header class="brand-bar">
@@ -121,9 +152,9 @@
 
     <!-- 时间轴区域 -->
     <section class="timeline-section" id="timelineSection">
-      <!-- 全局导航栏：返回首页 -->
+      <!-- 兼容旧交互的返回按钮，视觉入口由顶部胶囊导航承担 -->
       <div class="timeline-global-bar">
-        <button class="back-btn back-home-btn" id="backBtn">&#8592; 返回首页</button>
+        <button class="back-btn back-home-btn" id="backBtn">&#8592; 返回时间轴首页</button>
       </div>
 
       <!-- 桌面端头部：标题 + 右侧导航 -->
@@ -138,7 +169,7 @@
       <!-- 移动端导航 -->
       <div class="timeline-nav-mobile" id="timelineNavMobile">
         <div class="mobile-top-bar">
-          <button class="back-btn mobile-back-btn" id="mobileBackBtn">&#8592; 返回首页</button>
+          <button class="back-btn mobile-back-btn" id="mobileBackBtn">&#8592; 返回时间轴首页</button>
           <span class="mobile-current-title" id="mobileCurrentTitle"></span>
         </div>
         <div class="mobile-tab-bar" id="mobileTabBar"></div>
