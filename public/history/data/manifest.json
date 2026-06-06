@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "中国历史",
+      "desc": "从文明初现到现代转型，先看中国历史的大轮廓。",
+      "stamp": "史",
+      "cardDesc": "从文明初现到现代转型，先看中国历史的大轮廓。",
+      "cardFile": "data/cards/china-overview.json",
+      "detailFile": "data/details/china-overview.json",
+      "nodeCount": 21
+    },
+    {
+      "id": "ancient",
+      "title": "中国古代史",
+      "desc": "从早期文明到王朝更替，看制度、技术与交流如何展开。",
+      "stamp": "古",
+      "cardDesc": "从早期文明到王朝更替，看制度、技术与交流如何展开。",
+      "cardFile": "data/cards/china-ancient.json",
+      "detailFile": "data/details/china-ancient.json",
+      "nodeCount": 179
+    },
+    {
+      "id": "modernEarly",
+      "title": "中国近代史",
+      "desc": "在危机、变革与抗争中，观察中国走向近代的转折。",
+      "stamp": "近",
+      "cardDesc": "在危机、变革与抗争中，观察中国走向近代的转折。",
+      "cardFile": "data/cards/china-modern-early.json",
+      "detailFile": "data/details/china-modern-early.json",
+      "nodeCount": 104
+    },
+    {
+      "id": "modern",
+      "title": "中国现代史",
+      "desc": "从新中国成立到改革发展，梳理现代中国的关键节点。",
+      "stamp": "现",
+      "cardDesc": "从新中国成立到改革发展，梳理现代中国的关键节点。",
+      "cardFile": "data/cards/china-modern.json",
+      "detailFile": "data/details/china-modern.json",
+      "nodeCount": 36
+    }
+  ]
+}

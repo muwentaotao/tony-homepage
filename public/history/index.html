@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="/history/">
+<title>历史时间轴 · MUWENTAO</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- 水墨背景 V3 -->
+  <!--
+    背景图替换说明：
+    1. 将 webp 图片放入 assets/ 目录
+    2. 在 style.css 中修改 .ink-bg.home .ink-bg-image 和 .ink-bg.china .ink-bg-image 的 background-image
+    3. 当前使用 CSS 渐变模拟，作为无图片时的降级方案
+  -->
+  <div class="ink-bg home" id="inkBg">
+    <!-- 背景图片层：默认 CSS 模拟，后续替换为 assets/ink-bg-*.webp -->
+    <div class="ink-bg-image"></div>
+
+    <!-- SVG 山形轮廓：远山、中山、近山 + 远处房屋 -->
+    <div class="ink-mountains-v3">
+      <svg viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="vg1" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#bbbbbb;stop-opacity:0.22" />
+            <stop offset="100%" style="stop-color:#dddddd;stop-opacity:0.02" />
+          </linearGradient>
+          <linearGradient id="vg2" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#aaaaaa;stop-opacity:0.18" />
+            <stop offset="100%" style="stop-color:#cccccc;stop-opacity:0.02" />
+          </linearGradient>
+          <linearGradient id="vg3" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#999999;stop-opacity:0.14" />
+            <stop offset="100%" style="stop-color:#bbbbbb;stop-opacity:0.01" />
+          </linearGradient>
+          <filter id="vb1"><feGaussianBlur stdDeviation="3" /></filter>
+          <filter id="vb2"><feGaussianBlur stdDeviation="2" /></filter>
+        </defs>
+        <!-- 远山 -->
+        <path d="M0,280 Q180,160 360,240 T720,200 T1080,220 T1440,180 L1440,420 L0,420 Z" fill="url(#vg1)" filter="url(#vb1)" />
+        <!-- 中山 -->
+        <path d="M0,320 Q240,220 480,290 T960,250 T1440,270 L1440,420 L0,420 Z" fill="url(#vg2)" filter="url(#vb2)" />
+        <!-- 近山 -->
+        <path d="M0,360 Q200,300 400,340 T800,320 T1200,340 T1440,310 L1440,420 L0,420 Z" fill="url(#vg3)" />
+        <!-- 远处房屋 - 极淡 -->
+        <g opacity="0.12">
+          <rect x="420" y="328" width="6" height="8" fill="#aaaaaa" />
+          <polygon points="423,325 426,322 429,325" fill="#aaaaaa" />
+          <rect x="445" y="330" width="5" height="6" fill="#aaaaaa" />
+          <polygon points="447,328 450,325 452,328" fill="#aaaaaa" />
+          <rect x="900" y="318" width="7" height="9" fill="#aaaaaa" />
+          <polygon points="903,315 907,312 910,315" fill="#aaaaaa" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- 雾气层 -->
+    <div class="ink-mist"></div>
+
+    <!-- 江面感 -->
+    <div class="ink-river"></div>
+
+    <!-- 覆盖层：保证文字清晰 -->
+    <div class="ink-overlay"></div>
+  </div>
+
+  <!-- 页面内容 -->
+  <div class="page-wrapper">
+    <header class="brand-bar">
+      <span class="brand-text">MUWENTAO</span>
+      <div class="brand-divider"></div>
+      <span class="brand-text">History Timeline</span>
+    </header>
+
+    <div class="brand-about">
+      <button class="about-toggle" id="aboutToggle">展开说明</button>
+      <div class="about-body" id="aboutBody">
+        <p class="about-text">此卷为本人自作之历史时间轴，以岁月为经，以兴亡为纬；考据未敢自满，若有舛误，愿闻雅正。</p>
+      </div>
+    </div>
+
+    <!-- Hero 区域 -->
+    <section class="hero-section" id="heroSection">
+      <div class="hero-line"></div>
+      <h1 class="hero-title">历史时间轴</h1>
+      <p class="hero-subtitle">以时间为线索，观看中国历史的流动与转折</p>
+
+      <div class="cards-grid" id="cardsGrid">
+        <div class="entry-card" data-key="overview">
+          <div class="card-label">Timeline 01</div>
+          <h2 class="card-title">中国历史</h2>
+          <p class="card-desc">从文明初现到现代转型，先看中国历史的大轮廓。</p>
+          <div class="watermark">史</div>
+        </div>
+
+        <div class="entry-card" data-key="ancient">
+          <div class="card-label">Timeline 02</div>
+          <h2 class="card-title">中国古代史</h2>
+          <p class="card-desc">从早期文明到王朝更替，看制度、技术与交流如何展开。</p>
+          <div class="watermark">古</div>
+        </div>
+
+        <div class="entry-card" data-key="modernEarly">
+          <div class="card-label">Timeline 03</div>
+          <h2 class="card-title">中国近代史</h2>
+          <p class="card-desc">在危机、变革与抗争中，观察中国走向近代的转折。</p>
+          <div class="watermark">近</div>
+        </div>
+
+        <div class="entry-card" data-key="modern">
+          <div class="card-label">Timeline 04</div>
+          <h2 class="card-title">中国现代史</h2>
+          <p class="card-desc">从新中国成立到改革发展，梳理现代中国的关键节点。</p>
+          <div class="watermark">现</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 时间轴区域 -->
+    <section class="timeline-section" id="timelineSection">
+      <!-- 全局导航栏：返回首页 -->
+      <div class="timeline-global-bar">
+        <button class="back-btn back-home-btn" id="backBtn">&#8592; 返回首页</button>
+      </div>
+
+      <!-- 桌面端头部：标题 + 右侧导航 -->
+      <div class="timeline-header">
+        <div class="timeline-header-main">
+          <h2 class="timeline-title" id="timelineTitle"></h2>
+          <p class="timeline-desc" id="timelineDesc"></p>
+        </div>
+        <div class="timeline-nav-desktop" id="timelineNavDesktop"></div>
+      </div>
+
+      <!-- 移动端导航 -->
+      <div class="timeline-nav-mobile" id="timelineNavMobile">
+        <div class="mobile-top-bar">
+          <button class="back-btn mobile-back-btn" id="mobileBackBtn">&#8592; 返回首页</button>
+          <span class="mobile-current-title" id="mobileCurrentTitle"></span>
+        </div>
+        <div class="mobile-tab-bar" id="mobileTabBar"></div>
+      </div>
+
+      <div class="search-bar" id="searchBar">
+        <input type="text" class="search-input" id="searchInput" placeholder="搜索事件、年份、关键词..." autocomplete="off">
+        <button class="search-clear" id="searchClear">&#10005;</button>
+      </div>
+      <div class="search-result-count" id="searchResultCount"></div>
+
+      <div class="category-filter" id="categoryFilter"></div>
+
+      <div class="timeline-eras" id="timelineEras"></div>
+
+      <!-- 桌面端：横向水墨长卷轨道 -->
+      <div class="timeline-track" id="timelineTrack">
+        <div class="timeline-line"></div>
+        <div class="timeline-fog timeline-fog-left"></div>
+        <div class="timeline-fog timeline-fog-right"></div>
+        <div class="timeline-events" id="timelineEvents"></div>
+      </div>
+
+      <!-- 移动端：竖向水墨事件流 -->
+      <div class="timeline-mobile-flow" id="timelineMobileFlow">
+        <div class="mobile-flow-line"></div>
+        <div class="mobile-flow-events" id="mobileFlowEvents"></div>
+      </div>
+    </section>
+
+    <!-- 底部 -->
+    <footer class="page-footer">
+      <p class="footer-text">MUWENTAO.COM · 历史时间轴</p>
+    </footer>
+  </div>
+
+  <!-- 详情面板 -->
+  <div class="detail-overlay" id="detailOverlay">
+    <div class="detail-backdrop" id="detailBackdrop"></div>
+    <div class="detail-panel" id="detailPanel">
+      <div class="detail-handle"></div>
+      <button class="detail-close" id="detailClose">&#10005;</button>
+      <div class="detail-content" id="detailContent"></div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>

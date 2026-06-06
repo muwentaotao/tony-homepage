@@ -1,0 +1,170 @@
+{
+  "overview-civilization-start": {
+    "id": "overview-civilization-start",
+    "background": "距今约五千年前，黄河、长江等流域的气候和地理条件适合农业耕作，人类开始定居。",
+    "content": "先民们发展出农业、制陶和玉器加工技术，形成聚落和早期社会分工，礼制萌芽逐渐出现。",
+    "influence": "这些早期积累为后来中华文明的形成提供了最初的技术和社会基础，农业传统延续数千年。",
+    "whyImportant": "文明的起源回答了\"我们从哪里来\"这个根本问题。回望文明初现，才能理解中华文化的连续性从何而来。",
+    "relatedIds": []
+  },
+  "overview-early-state": {
+    "id": "overview-early-state",
+    "background": "随着社会复杂化，原有的部落联盟已无法管理日益庞大的人口和资源。",
+    "content": "夏朝建立后，形成了早期王权、都城和官僚体系的雏形，国家机器开始运转。",
+    "influence": "早期国家的形态为后来商周的礼制和宗法制度提供了最初的政治框架。",
+    "whyImportant": "国家的出现是人类社会组织方式的重大跃升。理解早期国家的形成，才能理解此后数千年中国政治演变的基本逻辑。",
+    "relatedIds": []
+  },
+  "overview-bronze-ritual": {
+    "id": "overview-bronze-ritual",
+    "background": "商周时期，金属冶炼技术成熟，社会分层加剧，需要一套规范来维系秩序。",
+    "content": "青铜器铸造达到高峰，甲骨文成为成熟文字，礼乐制度逐步完善，形成独特的文明面貌。",
+    "influence": "青铜礼器和文字系统成为中国文明的重要标识，礼乐文化深刻影响了后世的价值观念。",
+    "whyImportant": "一个文明的根基往往在早期就奠定了。商周的礼制与文字传统，至今仍在影响着中国人的思维方式。",
+    "relatedIds": []
+  },
+  "overview-spring-autumn-warring": {
+    "id": "overview-spring-autumn-warring",
+    "background": "周王室衰微，旧有秩序瓦解，诸侯竞相争霸，社会剧烈动荡。",
+    "content": "各国为富国强兵推行变法，士阶层崛起，儒、道、法等学派竞相提出治国方案。",
+    "influence": "百家争鸣奠定了中国思想传统的基础，变法实践则为后世制度创新提供了参照。",
+    "whyImportant": "这是中国思想史上最活跃的时期之一。后来两千年的政治和哲学讨论，几乎没有脱离这一时期提出的基本命题。",
+    "relatedIds": []
+  },
+  "overview-qin-unification": {
+    "id": "overview-qin-unification",
+    "background": "战国末期，长期战争使各国疲惫，统一成为历史趋势。",
+    "content": "秦国以强大的军事力量先后攻灭六国，建立了中国历史上第一个统一帝国。",
+    "influence": "统一文字、货币、度量衡，推行郡县制，奠定了中国大一统的政治框架和地理版图基础。",
+    "whyImportant": "秦的统一不只是军事胜利，它创造了一个延续两千多年的政治理想——大一统。这个理想至今仍在塑造中国。",
+    "relatedIds": []
+  },
+  "overview-han-unification": {
+    "id": "overview-han-unification",
+    "background": "秦朝速亡后，天下再次陷入战乱，人们渴望恢复稳定秩序。",
+    "content": "汉朝在继承秦制的基础上加以调整，推行休养生息，儒学逐渐成为官方意识形态。",
+    "influence": "汉朝四百余年的统治使大一统观念深入人心，汉族族称由此而来，丝绸之路开启了对外交流。",
+    "whyImportant": "汉朝不仅是一个王朝，它定义了什么是\"中国人\"。我们今天使用的文字、自称的族名，都源于这个时代。",
+    "relatedIds": []
+  },
+  "overview-silk-road": {
+    "id": "overview-silk-road",
+    "background": "汉武帝时期国力强盛，希望联合西域各国共同对抗匈奴。",
+    "content": "张骞两次出使西域，打通了中原与中亚、西亚的交通要道，丝绸、茶叶、香料开始长途贸易。",
+    "influence": "丝绸之路促进了东西方物质与文化的双向流动，佛教等外来文化借此传入中国。",
+    "whyImportant": "开放带来活力，封闭导致停滞。丝绸之路的历史提醒我们，文明的繁荣从来离不开对外交流。",
+    "relatedIds": []
+  },
+  "overview-division-integration": {
+    "id": "overview-division-integration",
+    "background": "汉帝国瓦解后，统一秩序崩溃，多个政权并立，北方游牧民族大量南下。",
+    "content": "政权频繁更迭，人口大规模流动，不同民族在冲突中逐渐交融。",
+    "influence": "江南地区得到开发，佛教广泛传播，为后来隋唐的再度统一和文化繁荣积累了条件。",
+    "whyImportant": "分裂不等于倒退。正是在这一时期，中国吸收了多元文化，江南经济崛起，为隋唐盛世准备了基础。",
+    "relatedIds": []
+  },
+  "overview-sui-tang-unification": {
+    "id": "overview-sui-tang-unification",
+    "background": "近三百年的分裂后，社会各阶层都渴望恢复统一与安定。",
+    "content": "隋朝结束分裂，唐朝继承并发展其制度，科举制、大运河、开放政策推动了全面繁荣。",
+    "influence": "唐朝成为当时世界上最强大的国家之一，长安是国际大都会，东亚各国深受唐文化影响。",
+    "whyImportant": "盛唐不仅是一个朝代，它代表了一种文明高度。理解唐代的开放与自信，有助于理解中国曾经的国际地位。",
+    "relatedIds": []
+  },
+  "overview-an-lushan": {
+    "id": "overview-an-lushan",
+    "background": "唐朝中期，节度使权力膨胀，中央与地方的矛盾日益尖锐。",
+    "content": "安禄山、史思明发动叛乱，攻占两京，唐朝动用巨大资源才平定叛乱。",
+    "influence": "唐朝元气大伤，藩镇割据形成，经济重心加速南移，均田制瓦解。",
+    "whyImportant": "安史之乱是唐朝由盛转衰的转折点。它揭示了中央集权与地方分权之间的永恒张力，这个课题至今仍有现实意义。",
+    "relatedIds": []
+  },
+  "overview-song-economy": {
+    "id": "overview-song-economy",
+    "background": "唐末五代战乱后，宋朝重建秩序，社会需要新的发展动力。",
+    "content": "纸币、市舶司、海外贸易兴起，城市商业网络发达，科技发明大量涌现。",
+    "influence": "经济重心完成南移，文人政治成为主流，理学兴起，社会形态趋于活跃。",
+    "whyImportant": "宋代证明了一个国家可以在军事不占优势的情况下，通过经济和文化创新达到高度繁荣。这种发展路径值得深思。",
+    "relatedIds": []
+  },
+  "overview-yuan-province": {
+    "id": "overview-yuan-province",
+    "background": "蒙古帝国横扫欧亚后，需要有效的制度来管理庞大的疆域。",
+    "content": "元朝建立后，设立行中书省，简称行省，作为地方最高行政机构。",
+    "influence": "行省制度打破了传统的山川形便原则，形成了犬牙交错的行政区划格局，为明清所继承。",
+    "whyImportant": "我们今天使用的省制，源头就在元朝。理解这一制度的由来，才能理解中国现代行政区划的形成逻辑。",
+    "relatedIds": []
+  },
+  "overview-ming-reconstruction": {
+    "id": "overview-ming-reconstruction",
+    "background": "元朝末年社会动荡，群雄并起，朱元璋最终脱颖而出。",
+    "content": "明朝废除丞相，设内阁，强化皇权，同时组织郑和下西洋，展现强大的国家组织能力。",
+    "influence": "明朝建立了高度集权的帝国体制，但也因海禁政策和宦官干政等问题逐渐走向封闭。",
+    "whyImportant": "明朝是一个充满矛盾的朝代：既有郑和下西洋的开放壮举，也有后期海禁的封闭保守。这种矛盾本身就有深刻的历史启示。",
+    "relatedIds": []
+  },
+  "overview-qing-consolidation": {
+    "id": "overview-qing-consolidation",
+    "background": "明末战乱和农民起义导致社会崩溃，清朝入关后需要重建秩序。",
+    "content": "清朝通过军政制度和多元治理手段，将蒙古、西藏、新疆等地区纳入统一版图。",
+    "influence": "奠定了现代中国的疆域基础，人口大幅增长，传统政治与文化达于鼎盛。",
+    "whyImportant": "清朝的疆域遗产直接延续到今天。理解清朝如何整合多民族地区，对于理解现代中国的国家形态至关重要。",
+    "relatedIds": []
+  },
+  "overview-opium-war": {
+    "id": "overview-opium-war",
+    "background": "19世纪，英国为扭转对华贸易逆差，大量向中国走私鸦片。",
+    "content": "清政府禁烟引发英国武装干涉，清军战败后签订《南京条约》，割地赔款。",
+    "influence": "中国被迫卷入近代世界体系，主权和领土完整开始遭到系统性破坏。",
+    "whyImportant": "鸦片战争是中国近代史的开端。它用最残酷的方式证明，一个封闭落后的国家在面对工业化世界时有多么脆弱。",
+    "relatedIds": []
+  },
+  "overview-self-strengthening": {
+    "id": "overview-self-strengthening",
+    "background": "两次鸦片战争的失败使部分官员认识到，中国必须在技术和制度上学习西方。",
+    "content": "洋务派创办军事工业，维新派推动制度改革，但都因守旧势力反对而未能成功。",
+    "influence": "这些探索虽然没有挽救清王朝，但开启了中国近代工业化和思想启蒙的进程。",
+    "whyImportant": "洋务和维新的失败告诉我们，技术层面的模仿是不够的，制度和文化层面的变革更加困难，也更加必要。",
+    "relatedIds": []
+  },
+  "overview-xinhai-revolution": {
+    "id": "overview-xinhai-revolution",
+    "background": "清末新政未能挽救统治危机，革命思潮在知识分子和军人中迅速传播。",
+    "content": "武昌起义后，各省纷纷响应，清朝宣统帝退位，中华民国成立。",
+    "influence": "结束了中国两千多年的君主专制制度，民主共和观念开始传播。",
+    "whyImportant": "推翻帝制是近代中国最深刻的政治变革之一。但革命只是开始，建设一个真正的共和国，比推翻一个王朝要艰难得多。",
+    "relatedIds": []
+  },
+  "overview-may-fourth": {
+    "id": "overview-may-fourth",
+    "background": "巴黎和会外交失败，中国作为战胜国却被要求将德国在山东的权益转交日本。",
+    "content": "北京学生率先游行抗议，随后工人、商人广泛参与，形成了全国性爱国运动。",
+    "influence": "促进了马克思主义在中国的传播，推动了思想解放和社会觉醒。",
+    "whyImportant": "五四运动标志着中国知识分子从单纯学习西方，转向探索适合中国国情的现代化道路。这种自觉至今仍有价值。",
+    "relatedIds": []
+  },
+  "overview-prc-founded": {
+    "id": "overview-prc-founded",
+    "background": "长期战乱后，中国社会渴望和平与统一，新的政治力量已经成熟。",
+    "content": "中国共产党领导的人民革命取得胜利，中华人民共和国中央人民政府成立。",
+    "influence": "结束了百年动荡，确立了社会主义制度，为后续的国家建设创造了前提条件。",
+    "whyImportant": "新中国的成立不仅是一个政权更替，它意味着中国终于摆脱了近代以来的被动挨打局面，重新掌握了自身命运。",
+    "relatedIds": []
+  },
+  "overview-reform-opening": {
+    "id": "overview-reform-opening",
+    "background": "计划经济体制下的发展遇到瓶颈，社会各阶层都渴望改变。",
+    "content": "十一届三中全会确立以经济建设为中心，农村改革、特区设立、市场经济逐步推进。",
+    "influence": "中国经济持续高速增长，数亿人口脱贫，综合国力大幅提升，深度融入全球化。",
+    "whyImportant": "改革开放证明了中国有能力通过自我调整适应时代变化。它不仅是经济政策，更是一种面对问题、勇于变革的精神。",
+    "relatedIds": []
+  },
+  "overview-pluralistic-civilization": {
+    "id": "overview-pluralistic-civilization",
+    "background": "中国新石器时代晚期，各地文化蓬勃发展。黄河流域有仰韶文化、龙山文化，长江流域有河姆渡文化、良渚文化，辽河流域有红山文化。这些文化在器物、技术、信仰等方面既有自身特色，又存在广泛的交流与互动。",
+    "content": "约公元前3000年前后，各区域文化在农业技术、陶器制作、玉器加工、建筑技术等方面相互借鉴，逐步形成了以黄河中下游为中心、辐射四周的文化互动网络。中原地区因其地理优势成为各文化交流汇聚的枢纽，多元文化在此碰撞融合，奠定了中华文明多元一体的基本格局。",
+    "influence": "这种多元融合的格局使中华文明具有了极强的包容性和连续性。不同区域的文化贡献共同构成了中华文明的底色，也解释了为什么中华文明能够在漫长历史中持续吸收外来因素而保持自身内核。",
+    "whyImportant": "它回答了中华文明从哪里来这一根本问题。与其他古文明不同，中华文明不是单一源头扩散的结果，而是多个区域文化长期互动、逐步整合的产物——这种多元一体的特质，在此后数千年里一直是中国文明最核心的特征之一。",
+    "relatedIds": []
+  }
+}

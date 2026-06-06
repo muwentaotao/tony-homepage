@@ -4,7 +4,8 @@ const projects = [
   {
     title: '历史时间轴网站',
     description: '用横向时间轴重新整理历史事件，让历史像地图一样展开。',
-    status: 'Planning / Building',
+    status: 'Live',
+    href: '/history/',
   },
   {
     title: '历史梗大集合',
@@ -40,11 +41,15 @@ export default function ThingsBuilt() {
 
         {/* 项目卡片 */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5">
-          {projects.map((project) => (
-            <div
-              key={project.title}
-              className="glass-card rounded-xl p-6 group cursor-pointer"
-            >
+          {projects.map((project) => {
+            const Card = project.href ? 'a' : 'div';
+
+            return (
+              <Card
+                key={project.title}
+                href={project.href}
+                className="glass-card rounded-xl p-6 group cursor-pointer"
+              >
               <div className="flex items-start justify-between mb-4">
                 <div className="w-10 h-10 rounded-lg bg-tony-darker border border-tony-border flex items-center justify-center">
                   <svg
@@ -71,8 +76,9 @@ export default function ThingsBuilt() {
               <p className="text-sm text-tony-muted leading-relaxed">
                 {project.description}
               </p>
-            </div>
-          ))}
+              </Card>
+            );
+          })}
         </div>
       </div>
     </section>

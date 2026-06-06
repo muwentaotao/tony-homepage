@@ -1,0 +1,6012 @@
+[
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yuanmou-man",
+    "title": "元谋人",
+    "dateText": "约前170万年",
+    "startYear": -1700000,
+    "summary": "元谋人是目前中国境内已知最早的古人类之一，为研究人类起源提供了重要线索。",
+    "type": "考古",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "元谋",
+      "古人类",
+      "旧石器",
+      "云南"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-peking-man",
+    "title": "北京人",
+    "dateText": "约前70万年",
+    "startYear": -700000,
+    "summary": "北京人是旧石器时代的重要代表，已能使用火和打制石器，过着群居生活。",
+    "type": "考古",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "北京",
+      "周口店",
+      "旧石器",
+      "用火"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-peiligang-culture",
+    "title": "裴李岗文化",
+    "dateText": "约前7000年",
+    "startYear": -7000,
+    "summary": "黄河中游地区出现以裴李岗遗址为代表的早期农业文化，是中国北方新石器时代的重要源头之一。",
+    "type": "考古",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "裴李岗",
+      "新石器",
+      "农业起源",
+      "黄河中游",
+      "考古"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-hemudu",
+    "title": "河姆渡文化",
+    "dateText": "约前5000年",
+    "startYear": -5000,
+    "summary": "河姆渡文化展现了长江流域早期的稻作农业和干栏式建筑，与仰韶文化遥相呼应。",
+    "type": "文明",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "河姆渡",
+      "稻作",
+      "干栏式建筑",
+      "长江"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yangshao",
+    "title": "仰韶文化",
+    "dateText": "约前5000年",
+    "startYear": -5000,
+    "summary": "仰韶文化以彩陶闻名，展现了黄河流域早期农业社会的面貌和定居生活。",
+    "type": "文明",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "仰韶",
+      "彩陶",
+      "农业",
+      "黄河"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-civilization-start",
+    "title": "文明初现",
+    "dateText": "约前5000年",
+    "startYear": -5000,
+    "summary": "黄河长江流域出现早期农业与聚落，中华文明的起源由此开始。",
+    "type": "文明",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "远古",
+      "农业",
+      "聚落",
+      "起源"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-hongshan-culture",
+    "title": "红山文化",
+    "dateText": "约前4700年",
+    "startYear": -4700,
+    "summary": "辽河流域出现以精美玉器和祭祀建筑为特色的红山文化，展现了中华文明北方源头的独特面貌。",
+    "type": "考古",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "红山文化",
+      "辽河",
+      "玉器",
+      "祭祀",
+      "新石器"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-liangzhu",
+    "title": "良渚文明",
+    "dateText": "约前3300年",
+    "startYear": -3300,
+    "summary": "良渚遗址展现出早期城市、礼制和复杂社会的文明形态。",
+    "type": "文明",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "新石器",
+      "城址",
+      "玉器",
+      "水利"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-longshan",
+    "title": "龙山文化",
+    "dateText": "约前3000年",
+    "startYear": -3000,
+    "summary": "龙山文化以黑陶和城址为特征，社会复杂化程度显著提高，文明曙光初现。",
+    "type": "文明",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "龙山",
+      "黑陶",
+      "城址",
+      "社会复杂化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yan-huang",
+    "title": "炎黄传说",
+    "dateText": "传说时代",
+    "startYear": -3000,
+    "summary": "炎黄传说反映了华夏族群的早期融合记忆，被后世尊为中华民族的人文始祖。",
+    "type": "传说",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "炎黄",
+      "华夏",
+      "传说",
+      "融合"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-pluralistic-civilization",
+    "title": "多元一体文明格局形成",
+    "dateText": "约前3000年",
+    "startYear": -3000,
+    "summary": "黄河、长江、辽河等流域的多种史前文化相互交流融合，逐渐形成了以中原为核心、多元一体的中华文明基本格局。",
+    "type": "文明",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "多元一体",
+      "文明融合",
+      "史前文化",
+      "中原核心",
+      "格局形成"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-taosi-site",
+    "title": "陶寺遗址",
+    "dateText": "约前2300年",
+    "startYear": -2300,
+    "summary": "山西陶寺遗址发现了大型城址、观象台和礼乐器物，被认为是早期国家形态形成的重要考古证据。",
+    "type": "考古",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "陶寺",
+      "山西",
+      "观象台",
+      "早期国家",
+      "考古"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yao-shun-yu",
+    "title": "尧舜禹禅让",
+    "dateText": "传说时代",
+    "startYear": -2300,
+    "summary": "尧舜禹禅让传说反映了古代对理想政治秩序的想象，也暗含了权力交接的历史记忆。",
+    "type": "传说",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "尧舜禹",
+      "禅让",
+      "传说",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-xia-dynasty",
+    "title": "夏朝建立",
+    "dateText": "约前2070年",
+    "startYear": -2070,
+    "summary": "传说中的第一个王朝出现，标志着早期国家形态的成型。",
+    "type": "王朝",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "夏朝",
+      "禹",
+      "二里头",
+      "王朝"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-early-state",
+    "title": "早期国家形成",
+    "dateText": "约前2070年",
+    "startYear": -2070,
+    "summary": "夏朝开启了中国的王朝时代，早期国家形态与礼制秩序逐步成形。",
+    "type": "阶段",
+    "eraName": "夏商周",
+    "dynasty": "夏",
+    "tags": [
+      "夏朝",
+      "国家",
+      "礼制",
+      "王朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-erlitou",
+    "title": "二里头文化",
+    "dateText": "约前1900年",
+    "startYear": -1900,
+    "summary": "二里头文化展现出早期都邑国家的面貌，被认为是探索夏文化的关键遗址。",
+    "type": "考古",
+    "eraName": "远古与早期文明",
+    "dynasty": "",
+    "tags": [
+      "二里头",
+      "夏文化",
+      "都邑",
+      "青铜"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-shang-dynasty",
+    "title": "商朝建立",
+    "dateText": "约前1600年",
+    "startYear": -1600,
+    "summary": "青铜文明高度发展，文字与祭祀体系日趋成熟。",
+    "type": "王朝",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "商朝",
+      "青铜",
+      "甲骨文",
+      "殷墟"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-bronze-ritual",
+    "title": "青铜与礼制",
+    "dateText": "约前1600年",
+    "startYear": -1600,
+    "summary": "商周时期青铜文明达到高峰，甲骨文与礼乐制度奠定了文化根基。",
+    "type": "文明",
+    "eraName": "夏商周",
+    "dynasty": "商",
+    "tags": [
+      "青铜",
+      "甲骨文",
+      "礼乐",
+      "商周"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-pan-geng-move",
+    "title": "盘庚迁殷",
+    "dateText": "约前1300年",
+    "startYear": -1300,
+    "summary": "商王盘庚将都城迁至殷，商朝政治中心稳定下来，迎来中兴。",
+    "type": "转折",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "商朝",
+      "盘庚",
+      "殷墟",
+      "迁都"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-bronze-civilization",
+    "title": "青铜文明",
+    "dateText": "约前1250年",
+    "startYear": -1250,
+    "summary": "商周时期青铜铸造达到高峰，礼器、兵器与权力象征融为一体，成为早期文明的核心标志。",
+    "type": "文化",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "青铜",
+      "礼器",
+      "铸造",
+      "殷墟",
+      "文明"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-fuhao-military",
+    "title": "妇好与商代军事文化",
+    "dateText": "约前1200年",
+    "startYear": -1200,
+    "summary": "商王武丁之妻妇好是中国历史上有据可考的第一位女军事统帅，其墓葬揭示了商代高度发达的青铜文明与军事制度。",
+    "type": "军事",
+    "eraName": "夏商西周",
+    "dynasty": "商",
+    "tags": [
+      "妇好",
+      "商代",
+      "女将军",
+      "青铜",
+      "甲骨文"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-oracle-bones",
+    "title": "甲骨文",
+    "dateText": "约前1200年",
+    "startYear": -1200,
+    "summary": "商人在龟甲兽骨上刻写占卜记录，形成中国最早的成体系文字，开启了有文字可考的历史。",
+    "type": "文字",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "甲骨文",
+      "文字",
+      "占卜",
+      "殷墟",
+      "文明"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-king-wu-campaign",
+    "title": "武王伐纣",
+    "dateText": "约前1046年",
+    "startYear": -1046,
+    "summary": "周人推翻商朝统治，建立新的政治秩序与礼制传统。",
+    "type": "战争",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "周朝",
+      "牧野",
+      "分封",
+      "礼乐"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-western-zhou-founded",
+    "title": "西周建立",
+    "dateText": "约前1046年",
+    "startYear": -1046,
+    "summary": "周人克商后建立周朝，定都镐京，以宗法和礼乐构建新型国家秩序。",
+    "type": "王朝",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "周朝",
+      "西周",
+      "镐京",
+      "王朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-fen-feng-system",
+    "title": "分封制",
+    "dateText": "约前1044年",
+    "startYear": -1044,
+    "summary": "周王室将土地与人民分封给同姓诸侯和功臣，形成以血缘为纽带的政治网络。",
+    "type": "制度",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "分封",
+      "诸侯",
+      "宗法",
+      "制度",
+      "周朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zong-fa-system",
+    "title": "宗法制",
+    "dateText": "约前1044年",
+    "startYear": -1044,
+    "summary": "以嫡长子继承为核心、大宗统摄小宗的血缘等级制度，成为周代政治的基石。",
+    "type": "制度",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "宗法",
+      "嫡长子",
+      "大宗",
+      "制度",
+      "周朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zhou-gong-campaign",
+    "title": "周公东征",
+    "dateText": "约前1043年",
+    "startYear": -1043,
+    "summary": "周公平定三监之乱与东方反叛，巩固了周朝对黄河下游的控制。",
+    "type": "战争",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "周公",
+      "东征",
+      "三监",
+      "周朝",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-duke-zhou-ritual",
+    "title": "周公制礼作乐",
+    "dateText": "约前1040年",
+    "startYear": -1040,
+    "summary": "周公旦在平定三监之乱后，系统整理并创制了一整套礼乐制度，奠定了西周政治秩序和中华礼乐文明的基础。",
+    "type": "制度",
+    "eraName": "夏商西周",
+    "dynasty": "西周",
+    "tags": [
+      "周公",
+      "礼乐",
+      "制度",
+      "西周",
+      "文明基础"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-li-yue-system",
+    "title": "礼乐制度",
+    "dateText": "约前1040年",
+    "startYear": -1040,
+    "summary": "以礼定分、以乐和同，通过仪式与规范维系等级秩序，塑造了后世中国的政治伦理。",
+    "type": "制度",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "礼乐",
+      "制度",
+      "等级",
+      "伦理",
+      "周朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jing-tian-system",
+    "title": "井田制",
+    "dateText": "约前1000年",
+    "startYear": -1000,
+    "summary": "将土地划为井字形方块，公田与私田交错，形成西周时期的基本农业经济模式。",
+    "type": "制度",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "井田",
+      "土地",
+      "农业",
+      "经济",
+      "周朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-gong-he-administration",
+    "title": "共和行政",
+    "dateText": "前841年",
+    "startYear": -841,
+    "summary": "国人暴动后，周厉王出逃，周公与召公共同执政，中国历史由此开始有确切纪年。",
+    "type": "政治",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "共和",
+      "国人暴动",
+      "纪年",
+      "周朝",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-guo-ren-revolt",
+    "title": "国人暴动",
+    "dateText": "前841年",
+    "startYear": -841,
+    "summary": "西周都城发生平民与贵族联合的暴动，共和行政开始。",
+    "type": "政治",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "西周",
+      "共和",
+      "暴动",
+      "纪年"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-xuan-wang-revival",
+    "title": "宣王中兴",
+    "dateText": "前827年",
+    "startYear": -827,
+    "summary": "周宣王即位后整顿内政、北伐猃狁、南征荆蛮，使衰落的周王室一度恢复权威。",
+    "type": "政治",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "宣王",
+      "中兴",
+      "周朝",
+      "政治",
+      "北伐"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-quan-rong-invasion",
+    "title": "犬戎入侵",
+    "dateText": "前771年",
+    "startYear": -771,
+    "summary": "申侯联合犬戎攻破镐京，周幽王被杀，西周覆亡，历史进入东周时代。",
+    "type": "战争",
+    "eraName": "夏商西周",
+    "dynasty": "夏商西周",
+    "tags": [
+      "犬戎",
+      "镐京",
+      "西周",
+      "灭亡",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-king-ping-east",
+    "title": "平王东迁",
+    "dateText": "前770年",
+    "startYear": -770,
+    "summary": "周平王将都城迁至洛邑，东周开始，诸侯势力逐渐崛起。",
+    "type": "转折",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "东周",
+      "洛邑",
+      "诸侯",
+      "衰落"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-spring-autumn-warring",
+    "title": "春秋战国大变革",
+    "dateText": "前770年",
+    "startYear": -770,
+    "summary": "诸侯争霸与百家争鸣推动了中国思想与制度的深刻变革。",
+    "type": "阶段",
+    "eraName": "春秋战国",
+    "dynasty": "周",
+    "tags": [
+      "百家争鸣",
+      "诸侯",
+      "变革",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-guan-zhong-reform",
+    "title": "管仲改革",
+    "dateText": "约前685年",
+    "startYear": -685,
+    "summary": "齐桓公任用管仲推行军政合一、盐铁专营和相地衰征，使齐国迅速富强，成为春秋首霸。",
+    "type": "改革",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "管仲",
+      "齐国",
+      "改革",
+      "霸业",
+      "经济"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-qi-duke-hegemony",
+    "title": "齐桓公称霸",
+    "dateText": "约前651年",
+    "startYear": -651,
+    "summary": "齐桓公在葵丘会盟诸侯，以尊王攘夷为号召，开创春秋霸主政治的先河。",
+    "type": "政治",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "齐桓公",
+      "葵丘",
+      "会盟",
+      "霸主",
+      "春秋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-chengpu-battle",
+    "title": "城濮之战",
+    "dateText": "前632年",
+    "startYear": -632,
+    "summary": "晋文公以退避三舍之策在城濮大败楚军，战后践土会盟，晋文成为中原新霸主。",
+    "type": "战争",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "城濮",
+      "晋文公",
+      "楚",
+      "战争",
+      "霸主"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jin-chu-rivalry",
+    "title": "晋楚争霸",
+    "dateText": "约前597年",
+    "startYear": -597,
+    "summary": "晋楚两国在中原反复争夺霸权，邲之战后楚庄王问鼎中原，争霸格局深刻重塑列国秩序。",
+    "type": "政治",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "晋楚",
+      "争霸",
+      "邲之战",
+      "楚庄王",
+      "中原"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-chu-shui-mu",
+    "title": "初税亩",
+    "dateText": "前594年",
+    "startYear": -594,
+    "summary": "鲁国按亩征税，承认了土地私有的现实，税制发生重大转变。",
+    "type": "制度",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "鲁国",
+      "税制",
+      "土地",
+      "私有"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-iron-plow",
+    "title": "铁器牛耕推广",
+    "dateText": "约前580年",
+    "startYear": -580,
+    "summary": "铁制农具与牛耕技术逐渐推广，农业生产力大幅提升，为土地私有化和社会变革提供了物质基础。",
+    "type": "技术",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "铁器",
+      "牛耕",
+      "农业",
+      "生产力",
+      "技术"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-confucius",
+    "title": "孔子与儒家思想",
+    "dateText": "约前551年",
+    "startYear": -551,
+    "summary": "孔子周游列国、整理典籍，以仁、礼为核心构建儒家思想体系，奠定了中国传统伦理的根基。",
+    "type": "思想",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "孔子",
+      "儒家",
+      "仁",
+      "礼",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-mibing-conference",
+    "title": "弭兵之会",
+    "dateText": "前546年",
+    "startYear": -546,
+    "summary": "宋国大夫向戌斡旋晋楚两大国达成停战协议，诸侯弭兵，中原获得数十年相对和平。",
+    "type": "政治",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "弭兵",
+      "向戌",
+      "晋楚",
+      "和平",
+      "宋国"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zi-chan-casting",
+    "title": "铸刑书",
+    "dateText": "前536年",
+    "startYear": -536,
+    "summary": "郑国将法律条文铸于鼎上公布，打破法律秘而不宣的传统。",
+    "type": "制度",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "郑国",
+      "成文法",
+      "子产",
+      "法治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-private-schools",
+    "title": "私学兴起",
+    "dateText": "约前522年",
+    "startYear": -522,
+    "summary": "孔子开创私学，打破学在官府的垄断，知识传播向平民开放，社会阶层流动开始出现新通道。",
+    "type": "思想",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "私学",
+      "孔子",
+      "教育",
+      "阶层",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jingtian-collapse",
+    "title": "井田制瓦解",
+    "dateText": "约前500年",
+    "startYear": -500,
+    "summary": "随着铁器普及和私田开垦，以公田为核心的井田制逐渐崩溃，土地私有化趋势不可逆转。",
+    "type": "制度",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "井田",
+      "土地",
+      "私有",
+      "制度",
+      "瓦解"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-spring-autumn-book",
+    "title": "《春秋》编修",
+    "dateText": "约前481年",
+    "startYear": -481,
+    "summary": "孔子据鲁国史料修订《春秋》，以微言大义褒贬是非，开创中国编年体史学和政治评论的传统。",
+    "type": "文化",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "春秋",
+      "孔子",
+      "史学",
+      "编年",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-li-beng-yue-huai",
+    "title": "礼崩乐坏",
+    "dateText": "约前480年",
+    "startYear": -480,
+    "summary": "诸侯僭越、大夫专权，西周礼乐秩序全面松动，旧制度走向崩溃，社会进入深刻转型期。",
+    "type": "转折",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "礼崩乐坏",
+      "秩序",
+      "转型",
+      "诸侯",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-wu-yue-rivalry",
+    "title": "吴越争霸",
+    "dateText": "前473年",
+    "startYear": -473,
+    "summary": "越王勾践卧薪尝胆，最终灭吴称霸，春秋末期南方势力崛起，争霸格局从黄河流域扩展至长江下游。",
+    "type": "战争",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "吴越",
+      "勾践",
+      "夫差",
+      "争霸",
+      "春秋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-mohism-rise",
+    "title": "墨家思想兴起",
+    "dateText": "约前470年",
+    "startYear": -470,
+    "summary": "墨子创立墨家学派，主张兼爱、非攻、尚贤，成为战国时期与儒家并称的显学，深刻影响了当时的社会思想。",
+    "type": "思想",
+    "eraName": "春秋战国",
+    "dynasty": "",
+    "tags": [
+      "墨子",
+      "墨家",
+      "兼爱",
+      "非攻",
+      "显学"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-three-families-jin",
+    "title": "三家分晋",
+    "dateText": "前453年",
+    "startYear": -453,
+    "summary": "韩赵魏三家大夫联手灭掉智氏，瓜分晋国，卿大夫取代诸侯的格局由此开启。",
+    "type": "转折",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "三家分晋",
+      "韩赵魏",
+      "战国",
+      "卿大夫"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-li-kui-reform",
+    "title": "李悝变法",
+    "dateText": "约前420年",
+    "startYear": -420,
+    "summary": "魏文侯任用李悝推行尽地力之教和平籴法，编制《法经》，开启战国变法运动先河。",
+    "type": "变法",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "李悝",
+      "魏国",
+      "变法",
+      "法经",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-seven-warring-states",
+    "title": "战国七雄形成",
+    "dateText": "约前403年",
+    "startYear": -403,
+    "summary": "周威烈王正式承认韩赵魏为诸侯，齐楚燕秦韩赵魏七雄并立格局确立，战国时代全面展开。",
+    "type": "政治",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "七雄",
+      "战国",
+      "诸侯",
+      "格局",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-wu-qi-reform",
+    "title": "吴起变法",
+    "dateText": "约前390年",
+    "startYear": -390,
+    "summary": "吴起在楚国废除世卿世禄、裁减冗官、奖励军功，使楚国一度强盛，却因触动旧贵族利益而身死法败。",
+    "type": "变法",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "吴起",
+      "楚国",
+      "变法",
+      "军功",
+      "贵族"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-tian-clan-qi",
+    "title": "田氏代齐",
+    "dateText": "约前386年",
+    "startYear": -386,
+    "summary": "田氏经过数代经营取代姜姓吕氏成为齐国君主，卿大夫篡夺诸侯权位成为战国开局的标志性事件之一。",
+    "type": "政治",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "田氏",
+      "齐国",
+      "篡位",
+      "卿大夫",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-shangyang-reform",
+    "title": "商鞅变法",
+    "dateText": "前356年",
+    "startYear": -356,
+    "summary": "秦国推行制度改革，增强国力，为统一六国奠定基础。",
+    "type": "变法",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "战国",
+      "秦国",
+      "耕战",
+      "县制"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-hundred-schools",
+    "title": "百家争鸣",
+    "dateText": "约前350年",
+    "startYear": -350,
+    "summary": "儒、墨、道、法、名、阴阳等学派竞相争鸣，思想空前活跃，奠定中国文化的多元根基。",
+    "type": "思想",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "百家争鸣",
+      "儒墨道法",
+      "思想",
+      "文化",
+      "战国"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jixia-academy",
+    "title": "稷下学宫",
+    "dateText": "约前350年",
+    "startYear": -350,
+    "summary": "齐国在临淄设立稷下学宫，广招天下学者，成为战国时期百家争鸣的中心阵地和世界上最早的官办高等学府之一。",
+    "type": "思想",
+    "eraName": "春秋战国",
+    "dynasty": "齐",
+    "tags": [
+      "稷下学宫",
+      "齐国",
+      "百家争鸣",
+      "学府",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-qin-rise",
+    "title": "秦国崛起",
+    "dateText": "约前338年",
+    "startYear": -338,
+    "summary": "商鞅变法后秦国国力大增，秦惠文王用张仪连横破合纵，秦国逐渐成为压倒六国的超级强国。",
+    "type": "政治",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "秦国",
+      "崛起",
+      "张仪",
+      "连横",
+      "战国"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-vertical-horizontal",
+    "title": "合纵连横",
+    "dateText": "约前320年",
+    "startYear": -320,
+    "summary": "战国中后期，纵横家以苏秦、张仪为代表，提出合纵与连横两种外交战略，深刻影响了战国列国的政治格局。",
+    "type": "政治",
+    "eraName": "春秋战国",
+    "dynasty": "",
+    "tags": [
+      "合纵连横",
+      "苏秦",
+      "张仪",
+      "纵横家",
+      "外交"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zhao-wuling-reform",
+    "title": "赵武灵王胡服骑射",
+    "dateText": "约前307年",
+    "startYear": -307,
+    "summary": "赵武灵王推行胡服骑射，打破华夷之辨的服饰壁垒，组建中原最早的骑兵军团以对抗北方游牧民族。",
+    "type": "改革",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "赵武灵王",
+      "胡服骑射",
+      "骑兵",
+      "改革",
+      "赵国"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-legalism-centralization",
+    "title": "法家思想与中央集权趋势",
+    "dateText": "约前280年",
+    "startYear": -280,
+    "summary": "韩非集法家之大成，主张法、术、势结合，为君主专制和中央集权提供系统理论，成为秦统一的指导思想。",
+    "type": "思想",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "法家",
+      "韩非",
+      "中央集权",
+      "专制",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-changping-battle",
+    "title": "长平之战",
+    "dateText": "前260年",
+    "startYear": -260,
+    "summary": "秦赵两国倾全国之力在长平决战，赵军大败，四十余万降卒被坑杀，六国再也无力单独抗衡秦国。",
+    "type": "战争",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "长平",
+      "秦赵",
+      "白起",
+      "战争",
+      "战国"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-dujiangyan",
+    "title": "都江堰",
+    "dateText": "约前256年",
+    "startYear": -256,
+    "summary": "李冰主持修建都江堰，分流岷江水灌溉成都平原，使秦国获得稳定的粮仓，为统一战争奠定物质基础。",
+    "type": "工程",
+    "eraName": "春秋战国",
+    "dynasty": "春秋战国",
+    "tags": [
+      "都江堰",
+      "李冰",
+      "水利",
+      "工程",
+      "秦国"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-emperor-system",
+    "title": "皇帝制度建立",
+    "dateText": "前221年",
+    "startYear": -221,
+    "summary": "秦王政自称始皇帝，创设皇帝称号与集权体制，中国传统帝制的基本框架由此确立。",
+    "type": "制度",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "皇帝",
+      "秦始皇",
+      "专制",
+      "集权",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-qin-unification",
+    "title": "秦统一六国",
+    "dateText": "前221年",
+    "startYear": -221,
+    "summary": "秦灭六国，结束长期分裂，建立中国历史上第一个统一帝国。",
+    "type": "统一",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "秦朝",
+      "统一",
+      "始皇帝",
+      "六国"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-unification-standards",
+    "title": "统一文字货币度量衡",
+    "dateText": "前221年",
+    "startYear": -221,
+    "summary": "秦始皇以小篆为标准统一文字，以圆形方孔钱统一货币，以秦制统一度量衡，奠定了大一统国家的文化经济基础。",
+    "type": "制度",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "小篆",
+      "货币",
+      "度量衡",
+      "统一",
+      "秦制"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-qin-unification",
+    "title": "秦统一六国",
+    "dateText": "前221年",
+    "startYear": -221,
+    "summary": "秦始皇结束长期分裂，建立了中国第一个中央集权的统一帝国。",
+    "type": "统一",
+    "eraName": "秦汉",
+    "dynasty": "秦",
+    "tags": [
+      "秦朝",
+      "统一",
+      "中央集权",
+      "始皇帝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-commandery-county",
+    "title": "郡县制推行",
+    "dateText": "前220年",
+    "startYear": -220,
+    "summary": "废除分封，全国设三十六郡，郡守县令由中央直接任免，开启了中央垂直管理地方的两千年传统。",
+    "type": "制度",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "郡县",
+      "中央集权",
+      "地方行政",
+      "秦制",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-qin-shi-tour",
+    "title": "秦始皇巡行与封禅",
+    "dateText": "约前219年",
+    "startYear": -219,
+    "summary": "秦始皇统一后五次大规模巡行天下，登泰山封禅刻石，既是宣示权威，也是加强对新征服地区的控制与整合。",
+    "type": "政治",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "秦始皇",
+      "巡行",
+      "封禅",
+      "泰山",
+      "权威宣示"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-great-wall-qin",
+    "title": "修筑长城",
+    "dateText": "约前214年",
+    "startYear": -214,
+    "summary": "秦始皇连接和扩建战国长城，形成西起临洮、东至辽东的万里防线，以军事工程巩固北方边疆。",
+    "type": "工程",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "长城",
+      "秦始皇",
+      "蒙恬",
+      "边防",
+      "工程"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-burning-books",
+    "title": "焚书坑儒",
+    "dateText": "前213年",
+    "startYear": -213,
+    "summary": "秦始皇采纳李斯建议焚烧民间诗书、坑杀方士儒生，以思想统制配合政治统一，也埋下了秦朝速亡的隐患。",
+    "type": "政治",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "焚书",
+      "坑儒",
+      "李斯",
+      "思想",
+      "秦政"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-qin-peasant-revolt",
+    "title": "秦末农民起义",
+    "dateText": "前209年",
+    "startYear": -209,
+    "summary": "陈胜吴广在大泽乡揭竿而起，天下响应，中国历史上第一次大规模农民战争爆发，秦朝统治迅速崩溃。",
+    "type": "转折",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "陈胜",
+      "吴广",
+      "大泽乡",
+      "农民起义",
+      "秦亡"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-julu-battle",
+    "title": "巨鹿之战",
+    "dateText": "前207年",
+    "startYear": -207,
+    "summary": "项羽破釜沉舟，以少胜多大败秦军主力，秦朝最后的军事支柱被摧毁，天下归属由此逆转。",
+    "type": "战争",
+    "eraName": "秦朝",
+    "dynasty": "秦",
+    "tags": [
+      "巨鹿",
+      "项羽",
+      "破釜沉舟",
+      "秦军",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-chu-han-war",
+    "title": "楚汉战争",
+    "dateText": "前206年",
+    "startYear": -206,
+    "summary": "项羽与刘邦为争夺天下展开四年大战，最终刘邦胜出，建立西汉，开启了中国历史上最长的大一统王朝之一。",
+    "type": "战争",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "楚汉",
+      "刘邦",
+      "项羽",
+      "垓下",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-western-han",
+    "title": "西汉建立",
+    "dateText": "前202年",
+    "startYear": -202,
+    "summary": "刘邦击败项羽后建立汉朝，开启四百余年刘氏统治。",
+    "type": "王朝",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "刘邦",
+      "西汉",
+      "长安",
+      "休养生息"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-han-unification",
+    "title": "汉代大一统",
+    "dateText": "前202年",
+    "startYear": -202,
+    "summary": "汉朝继承并发展了秦制，使大一统观念成为中国政治文化的核心。",
+    "type": "阶段",
+    "eraName": "秦汉",
+    "dynasty": "汉",
+    "tags": [
+      "汉朝",
+      "大一统",
+      "儒家",
+      "郡县"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-baideng-siege",
+    "title": "白登之围",
+    "dateText": "前200年",
+    "startYear": -200,
+    "summary": "汉高祖刘邦率军北击匈奴，在白登山被围困七日，最终用陈平计脱险，此战奠定了汉初对匈奴的和解政策。",
+    "type": "战争",
+    "eraName": "汉朝",
+    "dynasty": "西汉",
+    "tags": [
+      "白登之围",
+      "刘邦",
+      "匈奴",
+      "陈平",
+      "和亲政策"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-wen-jing-rule",
+    "title": "文景之治",
+    "dateText": "约前180年",
+    "startYear": -180,
+    "summary": "汉文帝、汉景帝推行轻徭薄赋、与民休息，社会经济恢复，国库充盈，为汉武帝的大一统奠定了物质基础。",
+    "type": "政治",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "文景",
+      "休养生息",
+      "轻徭薄赋",
+      "盛世",
+      "汉朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-wudi-unification",
+    "title": "汉武帝加强大一统",
+    "dateText": "约前141年",
+    "startYear": -141,
+    "summary": "汉武帝削弱诸侯、设立刺史、推行推恩令，从政治、经济、军事、思想全方位强化中央集权，大一统格局定型。",
+    "type": "政治",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "汉武帝",
+      "大一统",
+      "推恩令",
+      "刺史",
+      "集权"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zhangqian-mission",
+    "title": "张骞通西域",
+    "dateText": "前138年",
+    "startYear": -138,
+    "summary": "汉朝打开通往西域的道路，中外交流空间不断扩大。",
+    "type": "交流",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "汉朝",
+      "丝绸之路",
+      "西域",
+      "交流"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-silk-road",
+    "title": "丝绸之路开通",
+    "dateText": "前138年",
+    "startYear": -138,
+    "summary": "张骞出使西域开辟了丝绸之路，东西方文明交流进入新阶段。",
+    "type": "交流",
+    "eraName": "秦汉",
+    "dynasty": "汉",
+    "tags": [
+      "丝绸之路",
+      "张骞",
+      "西域",
+      "交流"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-ban-zhu-baijia",
+    "title": "罢黜百家独尊儒术",
+    "dateText": "约前134年",
+    "startYear": -134,
+    "summary": "汉武帝采纳董仲舒建议，确立儒学为国家正统意识形态，以经学取士，思想统一成为大一统政治的重要支柱。",
+    "type": "思想",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "董仲舒",
+      "儒学",
+      "意识形态",
+      "经学",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-tuien-decree",
+    "title": "推恩令",
+    "dateText": "前127年",
+    "startYear": -127,
+    "summary": "汉武帝采纳主父偃建议颁布推恩令，允许诸侯王将封地分给所有子嗣，以和平方式削弱了诸侯势力，强化了中央集权。",
+    "type": "制度",
+    "eraName": "汉朝",
+    "dynasty": "西汉",
+    "tags": [
+      "推恩令",
+      "汉武帝",
+      "主父偃",
+      "中央集权",
+      "诸侯"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-salt-iron-monopoly",
+    "title": "盐铁官营",
+    "dateText": "约前119年",
+    "startYear": -119,
+    "summary": "汉武帝将盐铁收归国家专营，以垄断利润支撑对外战争和中央集权，国家干预经济的模式由此制度化。",
+    "type": "经济",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "盐铁",
+      "官营",
+      "财政",
+      "国家垄断",
+      "经济"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-sima-qian-records",
+    "title": "司马迁与《史记》",
+    "dateText": "约前104年",
+    "startYear": -104,
+    "summary": "司马迁忍辱负重完成《史记》，首创纪传体通史，以究天人之际、通古今之变的史家胸怀，奠定中国史学传统。",
+    "type": "文化",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "司马迁",
+      "史记",
+      "史学",
+      "纪传体",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zhao-xuan-revival",
+    "title": "昭宣中兴",
+    "dateText": "约前87年",
+    "startYear": -87,
+    "summary": "汉武帝晚年社会凋敝，汉昭帝、宣帝调整政策、轻徭薄赋，西汉国力再度恢复，史称昭宣中兴。",
+    "type": "政治",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "昭宣",
+      "中兴",
+      "休养生息",
+      "汉朝",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-xiyu-protectorate",
+    "title": "西域都护府设立",
+    "dateText": "前60年",
+    "startYear": -60,
+    "summary": "汉宣帝设立西域都护府，正式将西域纳入中央政权管辖范围，丝绸之路的军政保障体系由此建立。",
+    "type": "政治",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "西域",
+      "都护府",
+      "丝绸之路",
+      "汉朝",
+      "边疆"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-wang-mang-reform",
+    "title": "王莽改制",
+    "dateText": "8年",
+    "startYear": 8,
+    "summary": "王莽篡汉后推行复古改制，恢复井田、改革币制，但因脱离实际引发社会动荡，新朝迅速覆亡。",
+    "type": "改革",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "王莽",
+      "改制",
+      "新朝",
+      "复古",
+      "改革"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-eastern-han-founded",
+    "title": "东汉建立",
+    "dateText": "25年",
+    "startYear": 25,
+    "summary": "刘秀击败各路起义军和割据势力，定都洛阳，恢复汉室，史称光武中兴，东汉延续近两百年。",
+    "type": "王朝",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "刘秀",
+      "光武中兴",
+      "洛阳",
+      "东汉",
+      "王朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-guangwu-restoration",
+    "title": "光武中兴",
+    "dateText": "25年",
+    "startYear": 25,
+    "summary": "刘秀在群雄割据中重建汉室，定都洛阳，推行休养生息政策，使社会秩序恢复，开创了东汉近两百年的基业。",
+    "type": "政治",
+    "eraName": "汉朝",
+    "dynasty": "东汉",
+    "tags": [
+      "刘秀",
+      "光武帝",
+      "东汉",
+      "中兴",
+      "休养生息"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-cai-lun-paper",
+    "title": "改进造纸术",
+    "dateText": "105年",
+    "startYear": 105,
+    "summary": "蔡伦改进造纸工艺，降低了书写材料成本，推动知识传播。",
+    "type": "技术",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "东汉",
+      "蔡伦",
+      "纸张",
+      "传播"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zhang-heng-seismograph",
+    "title": "张衡与地动仪",
+    "dateText": "132年",
+    "startYear": 132,
+    "summary": "张衡发明候风地动仪，这是世界上第一台能够测定地震方向的仪器，代表了中国古代科技的杰出成就。",
+    "type": "技术",
+    "eraName": "汉朝",
+    "dynasty": "东汉",
+    "tags": [
+      "张衡",
+      "地动仪",
+      "地震",
+      "科技",
+      "东汉"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-danggu-disaster",
+    "title": "党锢之祸",
+    "dateText": "166年",
+    "startYear": 166,
+    "summary": "东汉宦官与外戚交替专权，士大夫集团与宦官集团激烈冲突，两次党锢之祸重创清流，加速了东汉的衰亡。",
+    "type": "政治",
+    "eraName": "汉朝",
+    "dynasty": "东汉",
+    "tags": [
+      "党锢之祸",
+      "宦官",
+      "士大夫",
+      "清流",
+      "东汉衰亡"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yellow-turban",
+    "title": "黄巾起义",
+    "dateText": "184年",
+    "startYear": 184,
+    "summary": "张角以太平道为号召发动大规模农民起义，东汉政府名存实亡，地方军阀割据时代由此开启。",
+    "type": "战争",
+    "eraName": "汉朝",
+    "dynasty": "汉",
+    "tags": [
+      "黄巾",
+      "张角",
+      "太平道",
+      "农民起义",
+      "东汉"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-guandu-battle",
+    "title": "官渡之战",
+    "dateText": "200年",
+    "startYear": 200,
+    "summary": "曹操以少胜多击败袁绍，统一北方大局已定，三国格局的雏形由此浮现。",
+    "type": "战争",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "官渡",
+      "曹操",
+      "袁绍",
+      "统一北方",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-division-integration",
+    "title": "三国两晋南北朝",
+    "dateText": "3世纪",
+    "startYear": 200,
+    "summary": "政权分裂与民族交融并行，为隋唐统一积累了多元文化基础。",
+    "type": "阶段",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "分裂",
+      "民族融合",
+      "佛教",
+      "门阀"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-red-cliff",
+    "title": "赤壁之战",
+    "dateText": "208年",
+    "startYear": 208,
+    "summary": "孙刘联军以火攻大败曹操水军，奠定了三国鼎立的基础。",
+    "type": "战争",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "三国",
+      "火攻",
+      "鼎立",
+      "江南"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jiupin-zhongzheng",
+    "title": "九品中正制",
+    "dateText": "220年",
+    "startYear": 220,
+    "summary": "曹丕代汉后推行九品中正制，由中正官品评人物德才，分上上至下下九等以定官职，成为魏晋南北朝时期主要的选官制度。",
+    "type": "制度",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "九品中正",
+      "选官",
+      "门阀",
+      "制度",
+      "魏晋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-three-kingdoms-formed",
+    "title": "三国鼎立形成",
+    "dateText": "220年",
+    "startYear": 220,
+    "summary": "曹丕代汉建魏，刘备称帝于蜀，孙权割据江东，三国鼎立的政治格局正式形成。",
+    "type": "政治",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "三国",
+      "曹丕",
+      "刘备",
+      "孙权",
+      "鼎立"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-western-jin-unification",
+    "title": "西晋统一",
+    "dateText": "280年",
+    "startYear": 280,
+    "summary": "晋武帝司马炎灭吴，结束三国分裂，但统一的根基脆弱，很快再度陷入动荡。",
+    "type": "统一",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "西晋",
+      "司马炎",
+      "灭吴",
+      "统一",
+      "短暂"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-eight-princes",
+    "title": "八王之乱",
+    "dateText": "291年",
+    "startYear": 291,
+    "summary": "西晋宗室诸王为争夺中央权力互相攻伐，国力耗尽，为永嘉之乱和五胡乱华埋下祸根。",
+    "type": "政治",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "八王之乱",
+      "西晋",
+      "宗室",
+      "内乱",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-northern-tribes-migration",
+    "title": "北方民族内迁",
+    "dateText": "约300年",
+    "startYear": 300,
+    "summary": "东汉以来匈奴、鲜卑、羯、氐、羌等北方民族持续内迁，西晋末年已广泛分布于北方各地，为后来的民族大融合奠定了人口基础。",
+    "type": "关系",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "五胡",
+      "民族内迁",
+      "北方",
+      "融合",
+      "人口"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yongjia-southward",
+    "title": "永嘉南渡",
+    "dateText": "311年",
+    "startYear": 311,
+    "summary": "匈奴攻陷洛阳，晋室南迁，北方士民大规模渡江，中国经济文化重心开始南移。",
+    "type": "转折",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "永嘉",
+      "南渡",
+      "洛阳",
+      "晋室",
+      "南移"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-eastern-jin",
+    "title": "东晋建立",
+    "dateText": "317年",
+    "startYear": 317,
+    "summary": "司马氏南迁重建晋朝，北方进入十六国时期，南北格局形成。",
+    "type": "王朝",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "东晋",
+      "南迁",
+      "建康",
+      "十六国"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-wang-xizhi-calligraphy",
+    "title": "王羲之与书法艺术",
+    "dateText": "约353年",
+    "startYear": 353,
+    "summary": "王羲之以《兰亭集序》等作品将汉字书法推向艺术巅峰，其行书飘逸灵动，被后世尊为\"书圣\"，深刻影响了中国书法的审美传统。",
+    "type": "文化",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "东晋",
+    "tags": [
+      "王羲之",
+      "书法",
+      "兰亭集序",
+      "艺术",
+      "东晋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-feishui-battle",
+    "title": "淝水之战",
+    "dateText": "383年",
+    "startYear": 383,
+    "summary": "东晋以八万北府兵大败前秦苻坚九十万大军，阻止了北方政权南下统一的企图，南北分立格局延续。",
+    "type": "战争",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "淝水",
+      "东晋",
+      "苻坚",
+      "北府兵",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-southern-dynasties",
+    "title": "南朝更替",
+    "dateText": "420年",
+    "startYear": 420,
+    "summary": "刘裕代晋建宋，此后齐、梁、陈相继更替，南方政权虽有更迭，但江南经济文化持续繁荣。",
+    "type": "政治",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "南朝",
+      "刘裕",
+      "宋齐梁陈",
+      "更替",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-northern-wei-unify",
+    "title": "北魏统一北方",
+    "dateText": "439年",
+    "startYear": 439,
+    "summary": "北魏结束北方分裂局面，为后来的民族融合与制度创新奠定基础。",
+    "type": "统一",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "北魏",
+      "汉化",
+      "孝文帝",
+      "均田制"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zu-chongzhi-pi",
+    "title": "祖冲之与圆周率",
+    "dateText": "约480年",
+    "startYear": 480,
+    "summary": "祖冲之将圆周率精确到3.1415926与3.1415927之间，并提出密率355/113，这一精度在世界数学史上保持领先近千年。",
+    "type": "技术",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "南朝",
+    "tags": [
+      "祖冲之",
+      "圆周率",
+      "数学",
+      "科技",
+      "南朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-xiaowen-reform",
+    "title": "北魏孝文帝改革",
+    "dateText": "485年",
+    "startYear": 485,
+    "summary": "孝文帝迁都洛阳，推行汉化政策，改汉姓、穿汉服、说汉语、与汉族通婚，加速了北方民族大融合。",
+    "type": "改革",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "孝文帝",
+      "汉化",
+      "迁都",
+      "洛阳",
+      "民族融合"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jiangnan-development",
+    "title": "江南开发",
+    "dateText": "约500年",
+    "startYear": 500,
+    "summary": "北方人口持续南迁带来劳动力和先进技术，江南地区从火耕水耨走向精耕细作，中国经济重心南移趋势确立。",
+    "type": "经济",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "江南",
+      "开发",
+      "南移",
+      "经济",
+      "农业"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-buddhism-caves",
+    "title": "佛教传播与石窟艺术",
+    "dateText": "约520年",
+    "startYear": 520,
+    "summary": "佛教自印度经丝绸之路传入中国，与本土文化融合，云冈、龙门石窟开凿，成为中国艺术史上的巅峰成就。",
+    "type": "文化",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "佛教",
+      "石窟",
+      "云冈",
+      "龙门",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-ethnic-integration",
+    "title": "民族交融",
+    "dateText": "约520年",
+    "startYear": 520,
+    "summary": "匈奴、鲜卑、羯、氐、羌等民族内迁并与汉族杂居，语言、习俗、血统相互渗透，为隋唐多民族大一统奠定了基础。",
+    "type": "关系",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "民族",
+      "交融",
+      "五胡",
+      "汉族",
+      "融合"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-qimin-yaoshu",
+    "title": "《齐民要术》",
+    "dateText": "约540年",
+    "startYear": 540,
+    "summary": "贾思勰总结北方农业生产经验，撰成《齐民要术》，是中国现存最早最完整的农书，影响后世农学近千年。",
+    "type": "技术",
+    "eraName": "三国两晋南北朝",
+    "dynasty": "魏晋南北朝",
+    "tags": [
+      "齐民要术",
+      "贾思勰",
+      "农书",
+      "农业",
+      "技术"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-sui-dynasty",
+    "title": "隋朝建立",
+    "dateText": "581年",
+    "startYear": 581,
+    "summary": "杨坚取代北周建立隋朝，结束了近三百年的分裂局面。",
+    "type": "王朝",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "隋朝",
+      "统一",
+      "科举",
+      "三省六部"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-sui-wendi-reform",
+    "title": "隋文帝改革",
+    "dateText": "581年",
+    "startYear": 581,
+    "summary": "隋文帝杨坚建立隋朝后，推行三省六部制、均田制与租庸调制、简化地方行政层级等一系列改革，为隋唐盛世奠定了制度基础。",
+    "type": "改革",
+    "eraName": "隋唐",
+    "dynasty": "隋",
+    "tags": [
+      "隋文帝",
+      "三省六部",
+      "均田制",
+      "改革",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-daxing-city-planning",
+    "title": "大兴城与长安城规划",
+    "dateText": "582年",
+    "startYear": 582,
+    "summary": "隋文帝命宇文恺主持设计建造大兴城，唐在此基础上扩建为长安城，形成了当时世界上最大的国际化都市，其城市规划影响深远。",
+    "type": "工程",
+    "eraName": "隋唐",
+    "dynasty": "隋",
+    "tags": [
+      "大兴城",
+      "长安",
+      "城市规划",
+      "宇文恺",
+      "建筑"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-sui-tang-unification",
+    "title": "隋唐统一与开放",
+    "dateText": "7世纪",
+    "startYear": 600,
+    "summary": "隋唐重建统一帝国，开放包容的气象使长安成为世界文明的交汇点。",
+    "type": "阶段",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "隋唐",
+      "长安",
+      "开放",
+      "统一"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-grand-canal",
+    "title": "大运河开凿",
+    "dateText": "605年",
+    "startYear": 605,
+    "summary": "南北水路交通被打通，经济联系和国家控制能力增强。",
+    "type": "工程",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "隋朝",
+      "南北",
+      "漕运",
+      "交通"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-keju-system",
+    "title": "科举制度形成",
+    "dateText": "605年",
+    "startYear": 605,
+    "summary": "隋炀帝创设进士科，以考试选拔官员，打破门第垄断，为后世官僚政治提供了最持久的制度支柱。",
+    "type": "制度",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "科举",
+      "进士",
+      "考试",
+      "选官",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-tang-dynasty",
+    "title": "唐朝建立",
+    "dateText": "618年",
+    "startYear": 618,
+    "summary": "李渊建立唐朝，随后统一全国，开启了中国古代最强盛的王朝之一。",
+    "type": "王朝",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "唐朝",
+      "李渊",
+      "长安",
+      "盛世"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zhenguan-era",
+    "title": "贞观之治",
+    "dateText": "627年",
+    "startYear": 627,
+    "summary": "唐太宗励精图治，政治清明，社会安定，为盛唐奠定基础。",
+    "type": "政治",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "唐太宗",
+      "贞观",
+      "纳谏",
+      "治世"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-xuanzang-west",
+    "title": "玄奘西行",
+    "dateText": "629年",
+    "startYear": 629,
+    "summary": "玄奘历时十七年赴印度取经，归国后译经立说，以《大唐西域记》记录中亚南亚风貌，促进中印文化交流。",
+    "type": "交流",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "玄奘",
+      "西行",
+      "取经",
+      "佛教",
+      "交流"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-kentoshi",
+    "title": "遣唐使与东亚交流",
+    "dateText": "630年",
+    "startYear": 630,
+    "summary": "日本多次派遣遣唐使来华学习制度、文化和技术，新罗、渤海等国也纷纷效仿，唐朝成为东亚文明圈的核心。",
+    "type": "交流",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "遣唐使",
+      "日本",
+      "新罗",
+      "东亚",
+      "交流"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-tang-tubo",
+    "title": "唐蕃和亲",
+    "dateText": "641年",
+    "startYear": 641,
+    "summary": "唐太宗遣文成公主入藏与松赞干布成婚，带去书籍、工匠和种子，开启了唐蕃之间长达两百年的和亲与文化交流传统。",
+    "type": "关系",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "文成公主",
+      "吐蕃",
+      "和亲",
+      "西藏",
+      "关系"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-wu-zetian",
+    "title": "武则天称帝",
+    "dateText": "690年",
+    "startYear": 690,
+    "summary": "武则天改唐为周，成为中国历史上唯一的女皇帝，打破了传统的性别壁垒。",
+    "type": "政治",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "武则天",
+      "女皇帝",
+      "科举",
+      "门阀"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-kaiyuan-prosperity",
+    "title": "开元盛世",
+    "dateText": "713年",
+    "startYear": 713,
+    "summary": "唐玄宗励精图治，任用贤能，唐朝进入全盛时期，经济繁荣、文化昌盛，长安成为当时世界上最大的国际化都市。",
+    "type": "政治",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "开元",
+      "唐玄宗",
+      "盛世",
+      "长安",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-chang-an-cosmopolitan",
+    "title": "唐代长安与开放气象",
+    "dateText": "约720年",
+    "startYear": 720,
+    "summary": "长安城人口过百万，胡商、僧侣、使节、留学生云集，粟特、波斯、大食文化与中国本土文化交相辉映，气象空前开放。",
+    "type": "文化",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "长安",
+      "开放",
+      "国际化",
+      "胡商",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-dunhuang-culture",
+    "title": "敦煌文化繁荣",
+    "dateText": "约750年",
+    "startYear": 750,
+    "summary": "敦煌莫高窟在唐代迎来开凿高峰，壁画与彩塑融合中印艺术风格，藏经洞保存了数万件文献，成为丝绸之路文化交流的璀璨明珠。",
+    "type": "文化",
+    "eraName": "隋唐",
+    "dynasty": "唐",
+    "tags": [
+      "敦煌",
+      "莫高窟",
+      "壁画",
+      "丝绸之路",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jianzhen-east",
+    "title": "鉴真东渡",
+    "dateText": "754年",
+    "startYear": 754,
+    "summary": "鉴真和尚六次东渡终抵日本，传授佛教戒律、建筑、医药和艺术，成为中日文化交流史上最动人的篇章。",
+    "type": "交流",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "鉴真",
+      "东渡",
+      "日本",
+      "佛教",
+      "交流"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-an-lushan",
+    "title": "安史之乱",
+    "dateText": "755年",
+    "startYear": 755,
+    "summary": "安禄山、史思明发动叛乱，唐朝由盛转衰，藩镇割据局面形成。",
+    "type": "转折",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "安禄山",
+      "藩镇",
+      "衰落",
+      "南移"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-an-lushan",
+    "title": "安史之乱",
+    "dateText": "755年",
+    "startYear": 755,
+    "summary": "安史之乱使唐朝由盛转衰，中央集权削弱，经济重心开始南移。",
+    "type": "转折",
+    "eraName": "隋唐",
+    "dynasty": "唐",
+    "tags": [
+      "安史之乱",
+      "藩镇",
+      "衰落",
+      "南移"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-fanzhen-separatism",
+    "title": "藩镇割据",
+    "dateText": "763年",
+    "startYear": 763,
+    "summary": "安史之乱后，唐朝为安抚降将设立大量节度使，藩镇拥兵自重、赋税自专，中央对地方的控制力大幅削弱。",
+    "type": "政治",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "藩镇",
+      "割据",
+      "节度使",
+      "安史之乱",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-liang-tax",
+    "title": "两税法",
+    "dateText": "780年",
+    "startYear": 780,
+    "summary": "宰相杨炎推行两税法，按财产和土地征税，取代以人丁为本的租庸调制，中国税制由此转向以资产为宗。",
+    "type": "制度",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "两税法",
+      "杨炎",
+      "税制",
+      "土地",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-tang-poetry",
+    "title": "唐诗繁荣",
+    "dateText": "约800年",
+    "startYear": 800,
+    "summary": "李白、杜甫、白居易等诗人将汉语诗歌推向巅峰，唐诗成为中国文学史上最辉煌的篇章，影响远及日本朝鲜。",
+    "type": "文化",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "唐诗",
+      "李白",
+      "杜甫",
+      "文学",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yongzhen-reform",
+    "title": "永贞革新",
+    "dateText": "805年",
+    "startYear": 805,
+    "summary": "唐顺宗即位后，王叔文、柳宗元、刘禹锡等推行短暂而激进的改革，试图打击宦官和藩镇势力，但仅持续一百四十六天即告失败。",
+    "type": "改革",
+    "eraName": "隋唐",
+    "dynasty": "唐",
+    "tags": [
+      "永贞",
+      "王叔文",
+      "柳宗元",
+      "宦官",
+      "改革"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-niu-li-struggle",
+    "title": "牛李党争",
+    "dateText": "约820年",
+    "startYear": 820,
+    "summary": "唐朝中后期，以牛僧孺为首的牛党和以李德裕为首的李党围绕科举与门第、藩镇政策等展开长达四十年的激烈政争，严重消耗了朝廷的统治力量。",
+    "type": "政治",
+    "eraName": "隋唐",
+    "dynasty": "唐",
+    "tags": [
+      "牛李党争",
+      "牛僧孺",
+      "李德裕",
+      "朋党",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-woodblock-printing",
+    "title": "雕版印刷术",
+    "dateText": "868年",
+    "startYear": 868,
+    "summary": "《金刚经》卷子是现存最早的有确切日期的雕版印刷品，标志着印刷技术走向成熟，为知识传播开辟了新途径。",
+    "type": "技术",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "雕版印刷",
+      "金刚经",
+      "技术",
+      "传播",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-huang-chao-revolt",
+    "title": "黄巢起义",
+    "dateText": "875年",
+    "startYear": 875,
+    "summary": "黄巢率起义军转战大半个中国，一度攻占长安，唐朝统治根基被彻底摧毁，地方军阀势力从此不可遏制。",
+    "type": "战争",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "黄巢",
+      "起义",
+      "长安",
+      "唐朝",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-five-dynasties",
+    "title": "五代十国",
+    "dateText": "907年",
+    "startYear": 907,
+    "summary": "中原相继出现后梁、后唐、后晋、后汉、后周五个短命王朝，南方则割据为十个政权，战乱频仍但孕育着重新统一的力量。",
+    "type": "政治",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "五代",
+      "十国",
+      "分裂",
+      "军阀",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-tang-fall",
+    "title": "唐朝灭亡",
+    "dateText": "907年",
+    "startYear": 907,
+    "summary": "朱温逼迫唐哀帝禅让，建立后梁，享国二百八十九年的唐朝正式终结，中国进入五代十国大分裂时期。",
+    "type": "转折",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "朱温",
+      "后梁",
+      "唐朝",
+      "灭亡",
+      "转折"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-later-zhou-reform",
+    "title": "后周改革与统一前夜",
+    "dateText": "955年",
+    "startYear": 955,
+    "summary": "周世宗柴荣整顿军政、均定赋税、疏浚运河、三征南唐，为后来北宋的统一奠定了军事和物质基础。",
+    "type": "改革",
+    "eraName": "隋唐",
+    "dynasty": "隋唐",
+    "tags": [
+      "后周",
+      "柴荣",
+      "改革",
+      "统一",
+      "北宋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-northern-song",
+    "title": "北宋建立",
+    "dateText": "960年",
+    "startYear": 960,
+    "summary": "赵匡胤建立宋朝，结束五代十国分裂，文官政治逐渐成为主流。",
+    "type": "王朝",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "宋朝",
+      "赵匡胤",
+      "文官",
+      "科举"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-cup-wine-release",
+    "title": "杯酒释兵权",
+    "dateText": "961年",
+    "startYear": 961,
+    "summary": "宋太祖以一场酒宴和平解除开国功臣的兵权，以文制武、强干弱枝的治国方针由此确立。",
+    "type": "政治",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "赵匡胤",
+      "杯酒释兵权",
+      "文制武",
+      "集权",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-song-economy",
+    "title": "宋代经济文化",
+    "dateText": "10世纪",
+    "startYear": 1000,
+    "summary": "宋代经济重心南移，商业繁荣与科技发明推动社会面貌深刻变化。",
+    "type": "阶段",
+    "eraName": "宋元",
+    "dynasty": "宋",
+    "tags": [
+      "宋代",
+      "经济重心",
+      "商业",
+      "科技"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-chanyuan-treaty",
+    "title": "澶渊之盟",
+    "dateText": "1004年",
+    "startYear": 1004,
+    "summary": "宋辽达成和议，以岁币换取和平，开启了百年相对稳定的外交格局。",
+    "type": "关系",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "宋辽",
+      "和议",
+      "岁币",
+      "和平"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jiaozi",
+    "title": "交子",
+    "dateText": "1023年",
+    "startYear": 1023,
+    "summary": "北宋政府在四川发行交子，是世界上最早的纸币，标志着中国货币经济和信用体系进入新阶段。",
+    "type": "经济",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "交子",
+      "纸币",
+      "四川",
+      "经济",
+      "货币"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-movable-type",
+    "title": "活字印刷",
+    "dateText": "1040年",
+    "startYear": 1040,
+    "summary": "活字印刷提高文字复制效率，推动知识传播方式变化。",
+    "type": "技术",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "北宋",
+      "毕昇",
+      "知识传播",
+      "技术"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-qingli-reform",
+    "title": "庆历新政",
+    "dateText": "1043年",
+    "startYear": 1043,
+    "summary": "宋仁宗任用范仲淹推行庆历新政，主张明黜陟、抑侥幸、精贡举、择官长，试图解决北宋中期的冗官冗兵和财政危机。",
+    "type": "改革",
+    "eraName": "辽宋夏金",
+    "dynasty": "北宋",
+    "tags": [
+      "庆历新政",
+      "范仲淹",
+      "改革",
+      "北宋",
+      "冗官"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-wang-anshi-reform",
+    "title": "王安石变法",
+    "dateText": "1069年",
+    "startYear": 1069,
+    "summary": "宋神宗任用王安石推行青苗法、募役法、保甲法等措施，试图富国强兵，引发北宋最激烈的党争。",
+    "type": "变法",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "王安石",
+      "变法",
+      "青苗法",
+      "党争",
+      "北宋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-shibosi-system",
+    "title": "市舶司制度发展",
+    "dateText": "约1070年",
+    "startYear": 1070,
+    "summary": "北宋在广州、泉州、明州等地设立市舶司，专门管理海外贸易、征收关税、接待外商，标志着中国古代海外贸易管理制度的成熟。",
+    "type": "制度",
+    "eraName": "辽宋夏金",
+    "dynasty": "北宋",
+    "tags": [
+      "市舶司",
+      "海外贸易",
+      "关税",
+      "制度",
+      "北宋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-compass-gunpowder",
+    "title": "指南针和火药应用",
+    "dateText": "约1100年",
+    "startYear": 1100,
+    "summary": "宋代将指南针用于航海导航，火药开始应用于军事，两项发明深刻改变了世界航海和战争格局。",
+    "type": "技术",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "指南针",
+      "火药",
+      "航海",
+      "军事",
+      "技术"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-song-maritime-trade",
+    "title": "宋代海外贸易发展",
+    "dateText": "约1100年",
+    "startYear": 1100,
+    "summary": "宋代造船技术和航海技术进步，海上贸易范围远及东南亚、印度洋和东非，瓷器、丝绸、茶叶大量出口，推动了中国与世界的经济联系。",
+    "type": "经济",
+    "eraName": "辽宋夏金",
+    "dynasty": "北宋",
+    "tags": [
+      "海外贸易",
+      "海上丝路",
+      "瓷器",
+      "经济",
+      "北宋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-song-urban-economy",
+    "title": "宋代城市经济发展",
+    "dateText": "约1100年",
+    "startYear": 1100,
+    "summary": "开封、杭州等城市打破坊市界限，夜市繁荣，行会兴旺，市民阶层壮大，中国古代城市经济达到前所未有的高度。",
+    "type": "经济",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "城市",
+      "经济",
+      "开封",
+      "杭州",
+      "市民"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jingkang",
+    "title": "靖康之变",
+    "dateText": "1127年",
+    "startYear": 1127,
+    "summary": "金军攻破开封，北宋灭亡，宋室南渡建立南宋，南北对峙格局确立。",
+    "type": "转折",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "靖康",
+      "金军",
+      "南渡",
+      "南宋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-southern-song-founded",
+    "title": "南宋建立",
+    "dateText": "1127年",
+    "startYear": 1127,
+    "summary": "赵构在临安称帝，建立南宋，偏安江南，但社会经济文化持续发展，中国经济重心南移基本完成。",
+    "type": "王朝",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "南宋",
+      "赵构",
+      "临安",
+      "偏安",
+      "王朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-economic-south-shift",
+    "title": "经济重心南移完成",
+    "dateText": "约1130年",
+    "startYear": 1130,
+    "summary": "南宋时期，南方人口、农业产量、手工业和商业税收全面超过北方，中国经济重心南移的历史进程最终完成。",
+    "type": "经济",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "南移",
+      "经济重心",
+      "江南",
+      "农业",
+      "商业"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yue-fei-resist",
+    "title": "岳飞抗金",
+    "dateText": "1140年",
+    "startYear": 1140,
+    "summary": "岳飞率岳家军北伐，连战连捷，但宋高宗和秦桧求和心切，以十二道金牌召回岳飞，最终冤杀于风波亭。",
+    "type": "战争",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "岳飞",
+      "抗金",
+      "岳家军",
+      "风波亭",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-neo-confucianism",
+    "title": "理学兴起",
+    "dateText": "约1175年",
+    "startYear": 1175,
+    "summary": "程颢、程颐、朱熹等理学家融合儒释道，建构以天理为核心的哲学体系，重塑了中国人的伦理观和世界观。",
+    "type": "思想",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "理学",
+      "朱熹",
+      "程颐",
+      "儒释道",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-genghis-unification",
+    "title": "成吉思汗统一蒙古诸部",
+    "dateText": "1206年",
+    "startYear": 1206,
+    "summary": "铁木真在斡难河源头被推举为成吉思汗，统一蒙古草原，建立大蒙古国，此后其子孙建立了横跨欧亚的庞大帝国。",
+    "type": "统一",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "成吉思汗",
+      "蒙古",
+      "统一",
+      "大蒙古国",
+      "草原"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-hang-sheng-system",
+    "title": "行省制度",
+    "dateText": "1271年",
+    "startYear": 1271,
+    "summary": "元朝设中书省和行中书省管理地方，行省制度成为中国此后七百余年地方行政的基本框架，影响至今。",
+    "type": "制度",
+    "eraName": "元朝",
+    "dynasty": "元",
+    "tags": [
+      "行省",
+      "中书省",
+      "地方行政",
+      "制度",
+      "元朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yuan-dynasty",
+    "title": "元朝建立",
+    "dateText": "1271年",
+    "startYear": 1271,
+    "summary": "忽必烈定国号为元，建立横跨欧亚的大帝国，中外交流空前频繁。",
+    "type": "王朝",
+    "eraName": "元朝",
+    "dynasty": "元",
+    "tags": [
+      "元朝",
+      "忽必烈",
+      "行省",
+      "欧亚"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-yuan-province",
+    "title": "元代行省制度",
+    "dateText": "1271年",
+    "startYear": 1271,
+    "summary": "元朝创立行省制度，为后来中国行政区划奠定了基本框架。",
+    "type": "制度",
+    "eraName": "宋元",
+    "dynasty": "元",
+    "tags": [
+      "元朝",
+      "行省",
+      "忽必烈",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-marco-polo",
+    "title": "马可·波罗来华",
+    "dateText": "1275年",
+    "startYear": 1275,
+    "summary": "意大利商人马可·波罗沿丝绸之路抵达元大都，其游记向欧洲描绘了一个富庶繁荣的东方世界，激发了欧洲人对中国的向往。",
+    "type": "交流",
+    "eraName": "元朝",
+    "dynasty": "元",
+    "tags": [
+      "马可·波罗",
+      "丝绸之路",
+      "欧洲",
+      "游记",
+      "交流"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yashan-battle",
+    "title": "崖山海战",
+    "dateText": "1279年",
+    "startYear": 1279,
+    "summary": "元军与南宋残余势力在崖山决战，宋军全军覆没，陆秀夫背负幼帝投海，南宋灭亡，元朝统一中国。",
+    "type": "战争",
+    "eraName": "辽宋夏金",
+    "dynasty": "宋辽金夏",
+    "tags": [
+      "崖山",
+      "南宋",
+      "灭亡",
+      "陆秀夫",
+      "元朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-guo-shoujing",
+    "title": "郭守敬与《授时历》",
+    "dateText": "约1280年",
+    "startYear": 1280,
+    "summary": "郭守敬创制天文仪器、主持全国天文测量，编订《授时历》，精度与现行公历相当但早三百年，代表中国古代天文学最高成就。",
+    "type": "技术",
+    "eraName": "元朝",
+    "dynasty": "元",
+    "tags": [
+      "郭守敬",
+      "授时历",
+      "天文",
+      "历法",
+      "技术"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-maritime-silk-road",
+    "title": "海上丝绸之路发展",
+    "dateText": "约1280年",
+    "startYear": 1280,
+    "summary": "元朝鼓励海外贸易，泉州、广州等港口成为国际贸易中心，瓷器、丝绸远销东南亚、印度和东非，海上丝绸之路进入鼎盛期。",
+    "type": "交流",
+    "eraName": "元朝",
+    "dynasty": "元",
+    "tags": [
+      "海上丝路",
+      "泉州",
+      "贸易",
+      "瓷器",
+      "交流"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-huang-daopo-cotton",
+    "title": "黄道婆改进棉纺技术",
+    "dateText": "约1295年",
+    "startYear": 1295,
+    "summary": "黄道婆从海南岛黎族地区学得先进棉纺技术，回乡后改进轧棉、弹棉、纺纱和织布工具，推动了长江流域棉纺织业的革命性发展。",
+    "type": "技术",
+    "eraName": "元朝",
+    "dynasty": "元",
+    "tags": [
+      "黄道婆",
+      "棉纺",
+      "纺织",
+      "技术",
+      "元朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yuan-qu",
+    "title": "元曲繁荣",
+    "dateText": "约1320年",
+    "startYear": 1320,
+    "summary": "关汉卿、马致远等剧作家以杂剧和散曲反映社会现实，元曲与唐诗、宋词并称，成为中国文学史上的又一高峰。",
+    "type": "文化",
+    "eraName": "元朝",
+    "dynasty": "元",
+    "tags": [
+      "元曲",
+      "关汉卿",
+      "杂剧",
+      "文学",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-ming-dynasty",
+    "title": "明朝建立",
+    "dateText": "1368年",
+    "startYear": 1368,
+    "summary": "朱元璋推翻元朝，恢复汉人政权，建立高度集权的帝国体制。",
+    "type": "王朝",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "明朝",
+      "朱元璋",
+      "集权",
+      "内阁"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-ming-reconstruction",
+    "title": "明代国家重建",
+    "dateText": "1368年",
+    "startYear": 1368,
+    "summary": "明朝重建汉人政权，强化集权体制，郑和下西洋展现了海洋视野。",
+    "type": "阶段",
+    "eraName": "明清",
+    "dynasty": "明",
+    "tags": [
+      "明朝",
+      "朱元璋",
+      "集权",
+      "航海"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-abolish-chancellor",
+    "title": "废丞相与设内阁",
+    "dateText": "1380年",
+    "startYear": 1380,
+    "summary": "朱元璋以胡惟庸案为契机废除丞相制度，皇帝直接统领六部，后设内阁作为顾问机构，开启了明代高度集权的政治模式。",
+    "type": "制度",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "丞相",
+      "内阁",
+      "集权",
+      "制度",
+      "朱元璋"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-jingnan-campaign",
+    "title": "靖难之役",
+    "dateText": "1399年",
+    "startYear": 1399,
+    "summary": "明太祖死后，燕王朱棣起兵反对建文帝削藩，经过四年战争夺取皇位，迁都北京，开启了明朝的永乐时代。",
+    "type": "战争",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "靖难",
+      "朱棣",
+      "建文帝",
+      "削藩",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-yongle-encyclopedia",
+    "title": "永乐大典编纂",
+    "dateText": "1403年",
+    "startYear": 1403,
+    "summary": "明成祖朱棣命解缙、姚广孝等主持编纂《永乐大典》，收录古今图书七八千种，共计约3.7亿字，是中国古代最大的百科全书。",
+    "type": "文化",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "永乐大典",
+      "解缙",
+      "百科全书",
+      "文化",
+      "明朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zhenghe-voyages",
+    "title": "郑和下西洋",
+    "dateText": "1405年",
+    "startYear": 1405,
+    "summary": "明朝组织大规模远洋航行，展现海上交流与国家实力。",
+    "type": "航海",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "明朝",
+      "航海",
+      "西洋",
+      "交流"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-tumu-crisis",
+    "title": "土木堡之变",
+    "dateText": "1449年",
+    "startYear": 1449,
+    "summary": "明英宗亲征瓦剌兵败被俘，京师震动，明朝由攻势转为守势，边防与政治格局发生根本性转变。",
+    "type": "战争",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "土木堡",
+      "瓦剌",
+      "英宗",
+      "边防",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-silver-global-trade",
+    "title": "白银流入与全球贸易联系",
+    "dateText": "约1571年",
+    "startYear": 1571,
+    "summary": "隆庆开关后，中国丝绸、瓷器通过太平洋和印度洋贸易网络大量出口，美洲与日本白银持续流入，中国深度卷入早期全球化经济体系。",
+    "type": "经济",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "白银",
+      "全球贸易",
+      "隆庆开关",
+      "太平洋",
+      "经济"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zhangjuzheng-reform",
+    "title": "张居正改革",
+    "dateText": "1572年",
+    "startYear": 1572,
+    "summary": "张居正担任首辅期间推行考成法、一条鞭法等一系列改革，整顿吏治、清丈田亩、充实国库，使明朝一度出现中兴气象。",
+    "type": "改革",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "张居正",
+      "改革",
+      "考成法",
+      "财政",
+      "中兴"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-li-shizhen-medicine",
+    "title": "李时珍与《本草纲目》",
+    "dateText": "约1578年",
+    "startYear": 1578,
+    "summary": "李时珍历时二十七年编撰《本草纲目》，收录药物1892种，系统总结了中国古代医药学成就，被达尔文称为\"中国古代的百科全书\"。",
+    "type": "技术",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "李时珍",
+      "本草纲目",
+      "医药",
+      "科技",
+      "明朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-one-whip-law",
+    "title": "一条鞭法",
+    "dateText": "1581年",
+    "startYear": 1581,
+    "summary": "张居正将赋役合并征收，简化了税制，增加了朝廷财政收入。",
+    "type": "制度",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "张居正",
+      "赋役",
+      "银两",
+      "税制"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-late-ming-economy",
+    "title": "晚明商品经济发展",
+    "dateText": "约1600年",
+    "startYear": 1600,
+    "summary": "晚明时期江南市镇蓬勃兴起，手工业分工细化，长途贸易活跃，海外白银大量流入，中国社会出现早期商业化浪潮。",
+    "type": "经济",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "商品经济",
+      "市镇",
+      "江南",
+      "手工业",
+      "商业"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-xu-guangqi-agriculture",
+    "title": "徐光启与《农政全书》",
+    "dateText": "约1630年",
+    "startYear": 1630,
+    "summary": "徐光启融会中西科学知识，编撰《农政全书》，涵盖农本、田制、农事、水利、农器、树艺、蚕桑、种植等，是中国古代农学的集大成之作。",
+    "type": "技术",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "徐光启",
+      "农政全书",
+      "农学",
+      "科技",
+      "明朝"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-li-zicheng-revolt",
+    "title": "李自成起义",
+    "dateText": "1644年",
+    "startYear": 1644,
+    "summary": "李自成率领农民军攻占北京，崇祯帝自缢于煤山，明朝灭亡，为清军入关和政权更替创造了直接条件。",
+    "type": "战争",
+    "eraName": "明朝",
+    "dynasty": "明",
+    "tags": [
+      "李自成",
+      "农民起义",
+      "崇祯",
+      "明朝灭亡",
+      "北京"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-qing-entry",
+    "title": "清军入关",
+    "dateText": "1644年",
+    "startYear": 1644,
+    "summary": "吴三桂引清军入关，清朝迅速击败李自成农民军并迁都北京，确立了对中国大部分地区的统治，开启了新的王朝周期。",
+    "type": "转折",
+    "eraName": "清前中期",
+    "dynasty": "清",
+    "tags": [
+      "清军入关",
+      "吴三桂",
+      "清朝",
+      "北京",
+      "转折"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-qing-consolidation",
+    "title": "清代多民族巩固",
+    "dateText": "17世纪",
+    "startYear": 1650,
+    "summary": "清朝整合多民族疆域，奠定了现代中国版图，传统政治达于鼎盛。",
+    "type": "阶段",
+    "eraName": "明清",
+    "dynasty": "清",
+    "tags": [
+      "清朝",
+      "疆域",
+      "多民族",
+      "盛世"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-zheng-chengong-taiwan",
+    "title": "郑成功收复台湾",
+    "dateText": "1661年",
+    "startYear": 1661,
+    "summary": "郑成功率军东渡台湾海峡，击败荷兰殖民者，收复台湾，建立抗清基地，是中国历史上第一次成功驱逐西方殖民者的重大事件。",
+    "type": "战争",
+    "eraName": "清前中期",
+    "dynasty": "清",
+    "tags": [
+      "郑成功",
+      "台湾",
+      "荷兰",
+      "收复",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-kangxi-qianlong",
+    "title": "康乾时期",
+    "dateText": "约1681年",
+    "startYear": 1681,
+    "summary": "康熙、雍正、乾隆三朝长达一百三十余年，疆域大幅扩展、人口快速增长、国库充盈，被称为中国帝制时代的最后一个盛世。",
+    "type": "政治",
+    "eraName": "清前中期",
+    "dynasty": "清",
+    "tags": [
+      "康熙",
+      "乾隆",
+      "盛世",
+      "疆域",
+      "人口"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-unified-multiethnic",
+    "title": "统一多民族国家巩固",
+    "dateText": "约1683年",
+    "startYear": 1683,
+    "summary": "清朝通过收复台湾、平定准噶尔、设立驻藏大臣和伊犁将军等措施，将蒙古、西藏、新疆等地区纳入统一治理，奠定了现代中国版图的基础。",
+    "type": "政治",
+    "eraName": "清前中期",
+    "dynasty": "清",
+    "tags": [
+      "多民族",
+      "台湾",
+      "准噶尔",
+      "版图",
+      "统一"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-junjichu",
+    "title": "军机处设立",
+    "dateText": "1729年",
+    "startYear": 1729,
+    "summary": "雍正帝为处理西北军务设立军机处，后成为常设中枢机构，标志着清代君主集权达到顶峰，行政效率大幅提高。",
+    "type": "制度",
+    "eraName": "清前中期",
+    "dynasty": "清",
+    "tags": [
+      "军机处",
+      "雍正",
+      "集权",
+      "制度",
+      "行政"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-dream-red-chamber",
+    "title": "《红楼梦》与明清文化",
+    "dateText": "约1750年",
+    "startYear": 1750,
+    "summary": "曹雪芹创作《红楼梦》，以四大家族兴衰为背景刻画人性与社会，达到中国古典小说的巅峰，也是明清文化高度发展的缩影。",
+    "type": "文化",
+    "eraName": "清前中期",
+    "dynasty": "清",
+    "tags": [
+      "红楼梦",
+      "曹雪芹",
+      "小说",
+      "文化",
+      "明清"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-closure-policy",
+    "title": "闭关锁国政策",
+    "dateText": "1757年",
+    "startYear": 1757,
+    "summary": "乾隆帝限定外商仅能在广州一口通商，并设立公行制度严格管制对外贸易，中国逐渐与外部世界隔绝，错失工业革命带来的历史机遇。",
+    "type": "制度",
+    "eraName": "清前中期",
+    "dynasty": "清",
+    "tags": [
+      "闭关锁国",
+      "广州",
+      "公行",
+      "贸易",
+      "乾隆"
+    ]
+  },
+  {
+    "sectionId": "ancient",
+    "eventId": "ancient-opium-crisis",
+    "title": "鸦片输入危机",
+    "dateText": "约1839年",
+    "startYear": 1839,
+    "summary": "鸦片大量输入导致白银外流、社会危机加深，林则徐虎门销烟引发中英冲突，中国被动卷入近代世界秩序，古代史由此走向终结。",
+    "type": "危机",
+    "eraName": "清前中期",
+    "dynasty": "清",
+    "tags": [
+      "鸦片",
+      "林则徐",
+      "虎门销烟",
+      "白银外流",
+      "近代"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-humen-opium-destruction",
+    "title": "林则徐虎门销烟",
+    "dateText": "1839年",
+    "startYear": 1839,
+    "summary": "林则徐在广州收缴并销毁英美商人鸦片，是中国人民反抗鸦片毒害的正义行动，也成为鸦片战争爆发的直接导火索。",
+    "type": "危机",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "林则徐",
+      "虎门销烟",
+      "鸦片",
+      "广州",
+      "禁烟"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-opium-war",
+    "title": "鸦片战争",
+    "dateText": "1840年",
+    "startYear": 1840,
+    "summary": "英国以鸦片贸易为导火索发动侵华战争，中国被迫卷入近代世界体系。",
+    "type": "战争",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "英国",
+      "南京条约",
+      "通商",
+      "近代化"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-opium-war",
+    "title": "鸦片战争",
+    "dateText": "1840年",
+    "startYear": 1840,
+    "summary": "鸦片战争迫使中国面对近代世界，传统秩序开始瓦解。",
+    "type": "战争",
+    "eraName": "近代中国",
+    "dynasty": "清",
+    "tags": [
+      "鸦片战争",
+      "英国",
+      "南京条约",
+      "近代化"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-nanjing-treaty",
+    "title": "《南京条约》签订",
+    "dateText": "1842年",
+    "startYear": 1842,
+    "summary": "清政府与英国签订近代第一个不平等条约，主权和领土完整开始遭到破坏。",
+    "type": "条约",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "英国",
+      "香港",
+      "赔款",
+      "不平等条约"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-five-ports-trade",
+    "title": "五口通商与近代通商口岸",
+    "dateText": "1843年",
+    "startYear": 1843,
+    "summary": "《南京条约》签订后，广州、厦门、福州、宁波、上海相继开埠，中国被迫打开国门，卷入近代国际贸易体系。",
+    "type": "经济",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "五口通商",
+      "上海",
+      "广州",
+      "条约",
+      "贸易"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-haiguo-tuzhi",
+    "title": "魏源与《海国图志》",
+    "dateText": "1843年",
+    "startYear": 1843,
+    "summary": "魏源受林则徐嘱托编成《海国图志》，提出师夷长技以制夷，开启了近代中国了解世界、寻求变革的思想先河。",
+    "type": "思想",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "魏源",
+      "海国图志",
+      "师夷长技",
+      "开眼看世界",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-wangxia-treaty",
+    "title": "《望厦条约》",
+    "dateText": "1844年",
+    "startYear": 1844,
+    "summary": "美国迫使清政府签订《望厦条约》，获得协定关税、领事裁判权、片面最惠国待遇等特权，不平等条约体系进一步扩展。",
+    "type": "条约",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "望厦条约",
+      "美国",
+      "领事裁判权",
+      "不平等条约",
+      "特权"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-taiping",
+    "title": "太平天国运动兴起",
+    "dateText": "1851年",
+    "startYear": 1851,
+    "summary": "洪秀全领导大规模农民运动，建立政权，对清王朝统治造成巨大冲击。",
+    "type": "运动",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "洪秀全",
+      "农民起义",
+      "天朝田亩制度",
+      "清王朝"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-tianding-system",
+    "title": "《天朝田亩制度》",
+    "dateText": "1853年",
+    "startYear": 1853,
+    "summary": "太平天国定都天京后颁布纲领，提出凡天下田天下人同耕、有田同耕有饭同食的理想，是中国传统农民战争制度想象的顶点。",
+    "type": "制度",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "天朝田亩制度",
+      "土地",
+      "农民",
+      "平等",
+      "理想"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-second-opium-war",
+    "title": "第二次鸦片战争",
+    "dateText": "1856年",
+    "startYear": 1856,
+    "summary": "英法联军以修约和亚罗号事件为借口发动侵华战争，中国半殖民地化程度进一步加深，京师首次被外敌攻陷。",
+    "type": "战争",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "英法联军",
+      "亚罗号",
+      "修约",
+      "侵略",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-tianjing-incident",
+    "title": "天京事变",
+    "dateText": "1856年",
+    "startYear": 1856,
+    "summary": "太平天国领导集团发生严重内讧，杨秀清、韦昌辉等被杀，石达开出走，运动由盛转衰，理想与权力冲突的裂痕彻底暴露。",
+    "type": "转折",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "天京事变",
+      "内讧",
+      "杨秀清",
+      "转折",
+      "衰落"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-aigun-treaty",
+    "title": "《瑷珲条约》",
+    "dateText": "1858年",
+    "startYear": 1858,
+    "summary": "沙俄趁第二次鸦片战争之机，迫使黑龙江将军奕山签订《瑷珲条约》，割占黑龙江以北、外兴安岭以南约六十万平方公里领土。",
+    "type": "条约",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "瑷珲条约",
+      "沙俄",
+      "割地",
+      "黑龙江",
+      "领土"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-tianjin-treaty",
+    "title": "《天津条约》",
+    "dateText": "1858年",
+    "startYear": 1858,
+    "summary": "清政府与英、法、美、俄分别签订《天津条约》，外国公使驻京、增开商埠、内河航行等条款使中国主权进一步丧失。",
+    "type": "条约",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "天津条约",
+      "公使驻京",
+      "内河航行",
+      "赔款",
+      "主权"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-beijing-treaty",
+    "title": "《北京条约》",
+    "dateText": "1860年",
+    "startYear": 1860,
+    "summary": "清政府与英、法、俄签订《北京条约》，增开天津为商埠、割让九龙司、准许华工出国，不平等条约体系进一步扩展。",
+    "type": "条约",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "北京条约",
+      "天津",
+      "九龙",
+      "华工",
+      "条约"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-old-summer-palace",
+    "title": "火烧圆明园",
+    "dateText": "1860年",
+    "startYear": 1860,
+    "summary": "英法联军攻占北京，焚毁圆明园，这座凝聚百年心血的皇家园林化为焦土，成为近代中国文明创伤的深刻象征。",
+    "type": "战争",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "圆明园",
+      "英法联军",
+      "北京",
+      "文化浩劫",
+      "侵略"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-self-strengthening-ideas",
+    "title": "洋务思想萌芽",
+    "dateText": "约1860年",
+    "startYear": 1860,
+    "summary": "两次鸦片战争的惨败使部分士大夫认识到中西差距，师夷长技以制夷从书斋走向朝堂，为随后的洋务运动奠定了思想基础。",
+    "type": "思想",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "洋务",
+      "师夷长技",
+      "自强",
+      "思想",
+      "变革"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-self-strengthening",
+    "title": "洋务运动",
+    "dateText": "1861年",
+    "startYear": 1861,
+    "summary": "晚清官员尝试学习西方技术，兴办军事工业与新式学堂，以求富国强兵。",
+    "type": "自强",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "自强",
+      "工业",
+      "北洋水师",
+      "李鸿章"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-zongli-yamen",
+    "title": "总理衙门设立",
+    "dateText": "1861年",
+    "startYear": 1861,
+    "summary": "清政府设立总理各国事务衙门，是中国第一个专门处理外交事务的中央机构，标志着传统朝贡体系向近代外交体制的艰难转型。",
+    "type": "制度",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "总理衙门",
+      "外交",
+      "制度",
+      "洋务",
+      "近代化"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-self-strengthening",
+    "title": "洋务与维新",
+    "dateText": "1861年",
+    "startYear": 1861,
+    "summary": "洋务运动与戊戌变法是中国近代化探索的重要尝试，虽失败却启发了后世。",
+    "type": "改革",
+    "eraName": "近代中国",
+    "dynasty": "清",
+    "tags": [
+      "洋务",
+      "维新",
+      "自强",
+      "变法"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-taiping-fall",
+    "title": "天京陷落",
+    "dateText": "1864年",
+    "startYear": 1864,
+    "summary": "曾国藩率湘军攻陷天京，太平天国运动失败，历时十四年的大规模农民战争落幕，数千万人口因战乱而丧生。",
+    "type": "战争",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "天京",
+      "湘军",
+      "曾国藩",
+      "失败",
+      "农民战争"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-jiangnan-arsenal",
+    "title": "江南制造总局",
+    "dateText": "1865年",
+    "startYear": 1865,
+    "summary": "李鸿章在上海创办江南制造总局，兼造枪炮与轮船，是当时规模最大的近代军事工业企业，标志着中国近代工业化的起步。",
+    "type": "工业",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "江南制造总局",
+      "李鸿章",
+      "军事工业",
+      "上海",
+      "近代工业"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-fuzhou-shipyards",
+    "title": "福州船政局",
+    "dateText": "1866年",
+    "startYear": 1866,
+    "summary": "左宗棠在福州马尾创办船政局，设造船厂和船政学堂，是中国近代造船业和海军教育的重要基地，培养了首批造船和海军人才。",
+    "type": "工业",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "福州船政局",
+      "左宗棠",
+      "造船",
+      "海军",
+      "学堂"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-civilian-industry",
+    "title": "轮船招商局与近代民用工业",
+    "dateText": "1872年",
+    "startYear": 1872,
+    "summary": "李鸿章创办轮船招商局，洋务派从自强走向求富，中国近代民用工业开始兴起，官督商办模式成为一时之选。",
+    "type": "经济",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "轮船招商局",
+      "求富",
+      "民用工业",
+      "官督商办",
+      "经济"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-study-abroad",
+    "title": "留美幼童与早期留学",
+    "dateText": "1872年",
+    "startYear": 1872,
+    "summary": "清政府派遣首批幼童赴美留学，开启了中国官方向西方派遣留学生的先河，为近代中国培养了技术和外交领域的先行人才。",
+    "type": "教育",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "留美幼童",
+      "留学",
+      "教育",
+      "容闳",
+      "人才"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-navy-building",
+    "title": "近代海军建设",
+    "dateText": "1875年",
+    "startYear": 1875,
+    "summary": "清政府下决心系统筹建近代海军，设北洋、南洋、福建、广东四支水师，购买铁甲舰、设立船政学堂，开启中国海军近代化进程。",
+    "type": "军事",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "海军",
+      "水师",
+      "近代化",
+      "军事",
+      "自强"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-zuo-zongtang-xinjiang",
+    "title": "左宗棠收复新疆",
+    "dateText": "约1876年",
+    "startYear": 1876,
+    "summary": "左宗棠率湘军西征，击败阿古柏侵略势力，收复新疆大部，随后推动新疆建省，巩固了中国西北边疆。",
+    "type": "军事",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "左宗棠",
+      "新疆",
+      "收复",
+      "西征",
+      "边疆"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-beiyang-fleet",
+    "title": "北洋海军成军",
+    "dateText": "1888年",
+    "startYear": 1888,
+    "summary": "北洋海军正式成军，拥有定远、镇远等铁甲舰，吨位一度居亚洲首位，是洋务运动军事自强最显赫的标志性成果。",
+    "type": "军事",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "北洋海军",
+      "定远",
+      "镇远",
+      "铁甲舰",
+      "成军"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-hanyang-ironworks",
+    "title": "汉阳铁厂创办",
+    "dateText": "约1890年",
+    "startYear": 1890,
+    "summary": "张之洞在汉阳创办大型钢铁联合企业，包括炼铁厂、炼钢厂和轧钢厂，是中国近代第一个规模化的钢铁工业基地，被誉为\"亚洲第一个近代钢铁厂\"。",
+    "type": "工业",
+    "eraName": "太平天国与洋务运动",
+    "dynasty": "清",
+    "tags": [
+      "汉阳铁厂",
+      "张之洞",
+      "钢铁",
+      "工业",
+      "洋务"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-first-sino-japanese-war",
+    "title": "甲午中日战争爆发",
+    "dateText": "1894年",
+    "startYear": 1894,
+    "summary": "中日因朝鲜问题爆发战争，清军战败，民族危机急剧加深。",
+    "type": "战争",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "日本",
+      "北洋水师",
+      "威海卫",
+      "瓜分"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-xingzhonghui",
+    "title": "兴中会成立",
+    "dateText": "1894年",
+    "startYear": 1894,
+    "summary": "孙中山在檀香山创立兴中会，提出\"驱除鞑虏，恢复中华，创立合众政府\"的革命纲领，标志着中国资产阶级民主革命运动的开端。",
+    "type": "组织",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "兴中会",
+      "孙中山",
+      "革命",
+      "檀香山",
+      "组织"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-yellow-sea-battle",
+    "title": "黄海海战",
+    "dateText": "1894年",
+    "startYear": 1894,
+    "summary": "中日海军在黄海展开主力决战，北洋海军虽英勇抵抗但损失惨重，丧失制海权，甲午战争的结局由此基本确定。",
+    "type": "战争",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "黄海",
+      "北洋海军",
+      "邓世昌",
+      "致远舰",
+      "海战"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-gongche-shangshu",
+    "title": "公车上书",
+    "dateText": "1895年",
+    "startYear": 1895,
+    "summary": "《马关条约》签订消息传来，康有为、梁启超联合千余名应试举人联名上书，反对割地赔款，主张变法图强，标志着士大夫阶层的集体觉醒。",
+    "type": "政治",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "公车上书",
+      "康有为",
+      "梁启超",
+      "变法",
+      "觉醒"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-national-capitalism",
+    "title": "民族资本主义发展",
+    "dateText": "约1895年",
+    "startYear": 1895,
+    "summary": "《马关条约》允许外资在华设厂，清政府也放宽了对民间设厂的限制，一批民族资本企业纷纷创办，中国民族资本主义进入初步发展阶段。",
+    "type": "经济",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "民族资本",
+      "实业",
+      "设厂",
+      "经济",
+      "甲午"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-qiangxuehui",
+    "title": "强学会成立",
+    "dateText": "1895年",
+    "startYear": 1895,
+    "summary": "康有为、梁启超等在北京和上海创办强学会，以\"变法图强\"为宗旨，是维新派建立的第一个具有政党性质的政治团体。",
+    "type": "组织",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "强学会",
+      "康有为",
+      "梁启超",
+      "维新",
+      "组织"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-shimonoseki-treaty",
+    "title": "《马关条约》签订",
+    "dateText": "1895年",
+    "startYear": 1895,
+    "summary": "清政府与日本签订丧权辱国的条约，割让台湾，赔款数额巨大。",
+    "type": "条约",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "日本",
+      "台湾",
+      "赔款",
+      "设厂"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-weihaiwei-fall",
+    "title": "威海卫战役与北洋海军覆灭",
+    "dateText": "1895年",
+    "startYear": 1895,
+    "summary": "日军海陆夹击威海卫，北洋海军困守港内，最后一批战舰或被击沉或自毁，洋务运动三十年自强成果化为乌有。",
+    "type": "战争",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "威海卫",
+      "北洋海军",
+      "覆灭",
+      "洋务",
+      "自强"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-reform-thought-spread",
+    "title": "维新思想传播",
+    "dateText": "约1896年",
+    "startYear": 1896,
+    "summary": "甲午战败后，严复翻译《天演论》，康有为著《孔子改制考》，梁启超主笔《时务报》，维新思想在士绅和知识分子中迅速传播，变法呼声日益高涨。",
+    "type": "思想",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "维新",
+      "严复",
+      "天演论",
+      "时务报",
+      "思想"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-scramble-for-china",
+    "title": "列强瓜分狂潮",
+    "dateText": "1897年",
+    "startYear": 1897,
+    "summary": "德国强占胶州湾，俄国租旅大，英国租威海卫、九龙，法国租广州湾，列强竞相划分势力范围，中国面临被瓜分的空前民族危机。",
+    "type": "危机",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "瓜分",
+      "胶州湾",
+      "势力范围",
+      "民族危机",
+      "列强"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-hundred-days",
+    "title": "戊戌变法",
+    "dateText": "1898年",
+    "startYear": 1898,
+    "summary": "维新派推动制度改革，试图从政治、教育、经济等方面挽救民族危机。",
+    "type": "变法",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "维新",
+      "康有为",
+      "光绪",
+      "百日维新"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-jingshi-daxuetang",
+    "title": "京师大学堂创办",
+    "dateText": "1898年",
+    "startYear": 1898,
+    "summary": "戊戌变法期间设立京师大学堂，是中国近代第一所国立综合性大学，变法失败后唯一被保留的新政成果，成为中国近代高等教育的开端。",
+    "type": "教育",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "京师大学堂",
+      "大学",
+      "教育",
+      "维新",
+      "新政"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-wuxu-coup",
+    "title": "戊戌政变",
+    "dateText": "1898年",
+    "startYear": 1898,
+    "summary": "慈禧太后发动政变，囚禁光绪帝，诛杀戊戌六君子，废除新政措施，历时一百零三天的变法运动以失败告终。",
+    "type": "政治",
+    "eraName": "甲午战争与戊戌变法",
+    "dynasty": "清",
+    "tags": [
+      "戊戌政变",
+      "慈禧",
+      "光绪",
+      "六君子",
+      "失败"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-boxer-rebellion",
+    "title": "义和团运动与八国联军侵华",
+    "dateText": "1900年",
+    "startYear": 1900,
+    "summary": "义和团运动兴起，八国联军侵华，京津陷落，民族危机达到顶点。",
+    "type": "战争",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "义和团",
+      "八国联军",
+      "北京",
+      "扶清灭洋"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-boxer-protocol",
+    "title": "《辛丑条约》签订",
+    "dateText": "1901年",
+    "startYear": 1901,
+    "summary": "清政府与十一国签订条约，赔款数额空前，主权进一步丧失。",
+    "type": "条约",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "八国联军",
+      "赔款",
+      "驻军",
+      "清末新政"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-late-qing-reforms",
+    "title": "清末新政",
+    "dateText": "1901年",
+    "startYear": 1901,
+    "summary": "《辛丑条约》签订后，清政府推行包括编练新军、兴办实业、废除科举、预备立宪在内的一系列改革，是清王朝最后一次自上而下的自救努力。",
+    "type": "改革",
+    "eraName": "晚清危机",
+    "dynasty": "清",
+    "tags": [
+      "清末新政",
+      "改革",
+      "自救",
+      "立宪",
+      "新政"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-russo-japanese-war",
+    "title": "日俄战争",
+    "dateText": "1904年",
+    "startYear": 1904,
+    "summary": "日俄两国在中国领土上展开大规模战争，清政府被迫宣布中立，国力衰微暴露无遗，也刺激了朝野上下对君主立宪的向往。",
+    "type": "战争",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "日俄战争",
+      "辽东",
+      "立宪",
+      "国耻",
+      "列强"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-abolish-keju",
+    "title": "废除科举",
+    "dateText": "1905年",
+    "startYear": 1905,
+    "summary": "清政府下诏废除延续一千三百年的科举制度，传统士人的进身之途被切断，中国社会结构和知识阶层面临根本性重构。",
+    "type": "制度",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "科举",
+      "废除",
+      "教育",
+      "士人",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-new-schools",
+    "title": "清末新式学堂发展",
+    "dateText": "约1905年",
+    "startYear": 1905,
+    "summary": "清末新政期间，科举废除后全国掀起兴办新式学堂的热潮，西方自然科学、社会科学和新式教育理念被系统引入，深刻改变了中国的知识生产和人才结构。",
+    "type": "教育",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "新式学堂",
+      "教育",
+      "清末新政",
+      "科举",
+      "近代化"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-three-people-principles",
+    "title": "三民主义提出",
+    "dateText": "1905年",
+    "startYear": 1905,
+    "summary": "孙中山在同盟会成立时提出民族、民权、民生三大主义，为近代中国民主革命提供了系统的理论纲领和行动指南。",
+    "type": "思想",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "三民主义",
+      "孙中山",
+      "民族",
+      "民权",
+      "民生"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-tongmenghui",
+    "title": "中国同盟会成立",
+    "dateText": "1905年",
+    "startYear": 1905,
+    "summary": "孙中山等革命志士在日本东京组建全国性革命组织，提出三民主义纲领。",
+    "type": "组织",
+    "eraName": "辛亥革命",
+    "dynasty": "清/民国",
+    "tags": [
+      "孙中山",
+      "东京",
+      "三民主义",
+      "革命"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-constitutional-preparation",
+    "title": "预备立宪",
+    "dateText": "1906年",
+    "startYear": 1906,
+    "summary": "清政府宣布预备仿行宪政，承诺制定宪法、开设议院，是统治集团为挽救统治而做出的最大政治让步，也是近代中国政治制度转型的首次尝试。",
+    "type": "制度",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "预备立宪",
+      "宪政",
+      "宪法",
+      "议院",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-parliament-petition",
+    "title": "国会请愿运动",
+    "dateText": "1908年",
+    "startYear": 1908,
+    "summary": "各省士绅和立宪派组织三次大规模国会请愿，要求尽快召开国会、制定宪法，清廷的拖延和压制使立宪派从拥护朝廷转向同情革命。",
+    "type": "政治",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "国会请愿",
+      "立宪派",
+      "士绅",
+      "请愿",
+      "宪政"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-huanghuagang-uprising",
+    "title": "黄花岗起义",
+    "dateText": "1911年",
+    "startYear": 1911,
+    "summary": "黄兴率敢死队在广州起义，与清军激战一昼夜后失败，七十二烈士葬于黄花岗，其牺牲精神极大地激发了全国革命热情。",
+    "type": "革命",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "黄花岗",
+      "黄兴",
+      "七十二烈士",
+      "广州",
+      "革命"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-railway-protection",
+    "title": "保路运动",
+    "dateText": "1911年",
+    "startYear": 1911,
+    "summary": "清政府宣布铁路国有并将路权出卖给列强，四川等地民众掀起保路运动，清廷调湖北新军入川镇压，为武昌起义创造了条件。",
+    "type": "运动",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "保路运动",
+      "铁路国有",
+      "四川",
+      "武昌起义",
+      "路权"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-royal-cabinet",
+    "title": "皇族内阁",
+    "dateText": "1911年",
+    "startYear": 1911,
+    "summary": "清政府宣布成立责任内阁，但十三名阁员中皇族占七人，被称为皇族内阁，彻底暴露了清廷假立宪、真专制的面目，立宪派幻想破灭。",
+    "type": "制度",
+    "eraName": "辛亥革命",
+    "dynasty": "清",
+    "tags": [
+      "皇族内阁",
+      "责任内阁",
+      "假立宪",
+      "专制",
+      "欺骗"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-wuchang-uprising",
+    "title": "武昌起义",
+    "dateText": "1911年",
+    "startYear": 1911,
+    "summary": "革命党人在武昌发动武装起义，各省纷纷响应，清王朝统治迅速瓦解。",
+    "type": "革命",
+    "eraName": "辛亥革命",
+    "dynasty": "清/民国",
+    "tags": [
+      "新军",
+      "武昌",
+      "独立",
+      "专制"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-xinhai-revolution",
+    "title": "辛亥革命",
+    "dateText": "1911年",
+    "startYear": 1911,
+    "summary": "辛亥革命终结了两千多年帝制，亚洲第一个共和国诞生。",
+    "type": "革命",
+    "eraName": "近代中国",
+    "dynasty": "民国",
+    "tags": [
+      "辛亥革命",
+      "孙中山",
+      "共和",
+      "帝制"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-emperor-abdication",
+    "title": "清帝退位",
+    "dateText": "1912年",
+    "startYear": 1912,
+    "summary": "在南北议和与袁世凯的逼迫下，宣统帝溥仪颁布退位诏书，统治中国二百六十八年的清朝灭亡，两千多年的君主专制制度至此终结。",
+    "type": "制度",
+    "eraName": "辛亥革命",
+    "dynasty": "清/民国",
+    "tags": [
+      "退位",
+      "溥仪",
+      "帝制",
+      "终结",
+      "共和"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-provisional-constitution",
+    "title": "《临时约法》颁布",
+    "dateText": "1912年",
+    "startYear": 1912,
+    "summary": "南京临时参议院通过《中华民国临时约法》，确立主权在民、三权分立、责任内阁等原则，是中国历史上第一部资产阶级共和国宪法性质的文献。",
+    "type": "制度",
+    "eraName": "辛亥革命",
+    "dynasty": "民国",
+    "tags": [
+      "临时约法",
+      "宪法",
+      "三权分立",
+      "民国",
+      "制度"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-republic-founded",
+    "title": "中华民国成立",
+    "dateText": "1912年",
+    "startYear": 1912,
+    "summary": "孙中山就任临时大总统，亚洲第一个共和国诞生，民主共和观念传播。",
+    "type": "建国",
+    "eraName": "辛亥革命",
+    "dynasty": "清/民国",
+    "tags": [
+      "孙中山",
+      "南京",
+      "临时大总统",
+      "共和"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-yuan-shikai-president",
+    "title": "袁世凯就任临时大总统",
+    "dateText": "1912年",
+    "startYear": 1912,
+    "summary": "孙中山辞去临时大总统职务，袁世凯在北京就任，革命果实被北洋军阀集团攫取，中华民国进入北洋政府统治时期。",
+    "type": "政治",
+    "eraName": "辛亥革命",
+    "dynasty": "民国",
+    "tags": [
+      "袁世凯",
+      "临时大总统",
+      "北洋",
+      "让位",
+      "共和"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-second-revolution",
+    "title": "二次革命",
+    "dateText": "1913年",
+    "startYear": 1913,
+    "summary": "宋教仁被刺后，国民党发动武装讨袁，但迅速失败，孙中山等流亡海外，议会政治的道路宣告破产。",
+    "type": "战争",
+    "eraName": "辛亥革命",
+    "dynasty": "民国",
+    "tags": [
+      "二次革命",
+      "宋教仁",
+      "讨袁",
+      "国民党",
+      "议会"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-song-jiaoren-assassination",
+    "title": "宋教仁遇刺",
+    "dateText": "1913年",
+    "startYear": 1913,
+    "summary": "国民党领袖宋教仁在上海火车站被刺身亡，幕后主使直指袁世凯，这一事件彻底粉碎了通过议会政治实现共和的理想，二次革命随之爆发。",
+    "type": "政治",
+    "eraName": "辛亥革命",
+    "dynasty": "民国",
+    "tags": [
+      "宋教仁",
+      "遇刺",
+      "袁世凯",
+      "国民党",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-national-protection",
+    "title": "护国运动",
+    "dateText": "1915年",
+    "startYear": 1915,
+    "summary": "蔡锷等在云南起兵反袁，各省纷纷响应，袁世凯在众叛亲离中被迫取消帝制，共和制度得以恢复。",
+    "type": "战争",
+    "eraName": "辛亥革命",
+    "dynasty": "民国",
+    "tags": [
+      "护国运动",
+      "蔡锷",
+      "云南",
+      "反袁",
+      "共和"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-new-culture",
+    "title": "新文化运动兴起",
+    "dateText": "1915年",
+    "startYear": 1915,
+    "summary": "陈独秀、胡适等知识分子倡导民主与科学，批判旧礼教，推动思想解放。",
+    "type": "思想",
+    "eraName": "新文化运动与五四运动",
+    "dynasty": "民国",
+    "tags": [
+      "陈独秀",
+      "胡适",
+      "民主",
+      "科学"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-new-youth-magazine",
+    "title": "《新青年》创刊",
+    "dateText": "1915年",
+    "startYear": 1915,
+    "summary": "陈独秀在上海创办《青年杂志》，后改名《新青年》，高举民主与科学旗帜，成为新文化运动的核心阵地和思想策源地。",
+    "type": "文化",
+    "eraName": "新文化运动与五四运动",
+    "dynasty": "民国",
+    "tags": [
+      "新青年",
+      "陈独秀",
+      "民主",
+      "科学",
+      "杂志"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-yuan-restoration",
+    "title": "袁世凯复辟帝制",
+    "dateText": "1915年",
+    "startYear": 1915,
+    "summary": "袁世凯废除共和、恢复帝制，改元洪宪，试图重建君主专制，是民国初年制度共和遭遇的最严重倒退。",
+    "type": "政治",
+    "eraName": "辛亥革命",
+    "dynasty": "民国",
+    "tags": [
+      "袁世凯",
+      "复辟",
+      "帝制",
+      "洪宪",
+      "共和"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-warlord-split",
+    "title": "军阀割据局面形成",
+    "dateText": "1916年",
+    "startYear": 1916,
+    "summary": "袁世凯死后，北洋军阀分裂为直、皖、奉等派系，中央政权名存实亡，中国陷入四分五裂的军阀割据时代。",
+    "type": "政治",
+    "eraName": "辛亥革命",
+    "dynasty": "民国",
+    "tags": [
+      "军阀",
+      "割据",
+      "北洋",
+      "分裂",
+      "内战"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-fuyuan-struggle",
+    "title": "府院之争",
+    "dateText": "1917年",
+    "startYear": 1917,
+    "summary": "中华民国总统黎元洪与国务总理段祺瑞围绕是否参加第一次世界大战、是否解散国会等问题爆发激烈冲突，张勋趁机复辟，中国宪政实验遭遇重挫。",
+    "type": "政治",
+    "eraName": "新文化运动与五四运动",
+    "dynasty": "民国",
+    "tags": [
+      "府院之争",
+      "黎元洪",
+      "段祺瑞",
+      "宪政",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-literary-revolution",
+    "title": "文学革命",
+    "dateText": "1917年",
+    "startYear": 1917,
+    "summary": "胡适发表《文学改良刍议》，陈独秀发表《文学革命论》，主张以白话文取代文言文，提倡新文学，标志着中国文学现代转型的开端。",
+    "type": "文化",
+    "eraName": "新文化运动与五四运动",
+    "dynasty": "民国",
+    "tags": [
+      "文学革命",
+      "胡适",
+      "陈独秀",
+      "白话文",
+      "新文学"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-vernacular-movement",
+    "title": "白话文运动",
+    "dateText": "1917年",
+    "startYear": 1917,
+    "summary": "胡适发表《文学改良刍议》，陈独秀发表《文学革命论》，主张以白话文取代文言文，推动了中国语言文字和文学表达的现代化转型。",
+    "type": "文化",
+    "eraName": "新文化运动与五四运动",
+    "dynasty": "民国",
+    "tags": [
+      "白话文",
+      "胡适",
+      "文学革命",
+      "文言文",
+      "文化"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-marxism-spread",
+    "title": "马克思主义传播",
+    "dateText": "1919年",
+    "startYear": 1919,
+    "summary": "五四运动后，李大钊、陈独秀等先进知识分子开始系统介绍马克思主义，为中国共产党的成立奠定了思想和干部基础。",
+    "type": "思想",
+    "eraName": "新文化运动与五四运动",
+    "dynasty": "民国",
+    "tags": [
+      "马克思主义",
+      "李大钊",
+      "陈独秀",
+      "思想",
+      "五四"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-may-fourth",
+    "title": "五四运动",
+    "dateText": "1919年",
+    "startYear": 1919,
+    "summary": "青年学生和社会各界推动反帝爱国运动，思想解放和社会觉醒加速。",
+    "type": "思潮",
+    "eraName": "新文化运动与五四运动",
+    "dynasty": "民国",
+    "tags": [
+      "巴黎和会",
+      "山东",
+      "反帝",
+      "新民主主义"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-paris-peace-conference",
+    "title": "巴黎和会",
+    "dateText": "1919年",
+    "startYear": 1919,
+    "summary": "一战结束后召开的巴黎和会将德国在山东的权益转交日本，中国外交遭遇惨败，直接引发了五四运动的爆发。",
+    "type": "政治",
+    "eraName": "新文化运动与五四运动",
+    "dynasty": "民国",
+    "tags": [
+      "巴黎和会",
+      "山东",
+      "日本",
+      "外交",
+      "权益"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-may-fourth",
+    "title": "五四运动",
+    "dateText": "1919年",
+    "startYear": 1919,
+    "summary": "五四运动推动了思想解放，标志着中国新民主主义革命的开端。",
+    "type": "思潮",
+    "eraName": "近代中国",
+    "dynasty": "民国",
+    "tags": [
+      "五四",
+      "反帝",
+      "思想解放",
+      "新民主主义"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-early-communist-groups",
+    "title": "中国共产党早期组织",
+    "dateText": "1920年",
+    "startYear": 1920,
+    "summary": "陈独秀等在上海、北京、武汉、长沙、广州等地建立共产党早期组织，翻译马克思主义著作，创办工人刊物，为全国性政党的创建做准备。",
+    "type": "组织",
+    "eraName": "国民革命",
+    "dynasty": "民国",
+    "tags": [
+      "共产党",
+      "早期组织",
+      "上海",
+      "马克思主义",
+      "建党"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-marxist-study-society",
+    "title": "马克思主义研究会成立",
+    "dateText": "1920年",
+    "startYear": 1920,
+    "summary": "李大钊在北京大学组织马克思主义研究会，系统研究和传播马克思主义理论，为中国共产党的成立做了重要的思想和组织准备。",
+    "type": "思想",
+    "eraName": "国民革命",
+    "dynasty": "民国",
+    "tags": [
+      "马克思主义",
+      "李大钊",
+      "研究会",
+      "思想",
+      "中共"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-cpc-founded",
+    "title": "中国共产党成立",
+    "dateText": "1921年",
+    "startYear": 1921,
+    "summary": "中共一大在上海召开，中国工人阶级政党诞生，革命面貌从此改变。",
+    "type": "组织",
+    "eraName": "国民革命",
+    "dynasty": "民国",
+    "tags": [
+      "一大",
+      "上海",
+      "南湖",
+      "工人阶级"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-cpc-second-congress",
+    "title": "中共二大提出民主革命纲领",
+    "dateText": "1922年",
+    "startYear": 1922,
+    "summary": "中国共产党第二次全国代表大会制定了反帝反封建的民主革命纲领，明确了党的最低纲领和最高纲领，为中国革命指明了阶段性目标。",
+    "type": "政治",
+    "eraName": "国民革命",
+    "dynasty": "民国",
+    "tags": [
+      "中共二大",
+      "民主革命",
+      "纲领",
+      "反帝反封建",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-jinghan-railway-strike",
+    "title": "京汉铁路工人大罢工",
+    "dateText": "1923年",
+    "startYear": 1923,
+    "summary": "京汉铁路工人为争取成立总工会的权利举行大罢工，遭到军阀吴佩孚血腥镇压，造成\"二七惨案\"，标志着中国工人运动从高潮转向低潮，也促使中共重新认识革命策略。",
+    "type": "运动",
+    "eraName": "国民革命",
+    "dynasty": "民国",
+    "tags": [
+      "京汉铁路",
+      "大罢工",
+      "二七惨案",
+      "工人运动",
+      "吴佩孚"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-first-gmd-cpc-cooperation",
+    "title": "第一次国共合作正式形成",
+    "dateText": "1924年",
+    "startYear": 1924,
+    "summary": "国民党一大重新解释三民主义，确立联俄联共扶助农工政策，国共两党建立革命统一战线。",
+    "type": "革命",
+    "eraName": "国民革命",
+    "dynasty": "中华民国",
+    "tags": [
+      "国共合作",
+      "国民党一大",
+      "新三民主义",
+      "革命统一战线",
+      "联俄联共"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-huangpu-academy",
+    "title": "黄埔军校创办",
+    "dateText": "1924年",
+    "startYear": 1924,
+    "summary": "国民党陆军军官学校在黄埔岛创办，实行军事与政治教育并重，培养了大批国民革命军事骨干。",
+    "type": "革命",
+    "eraName": "国民革命",
+    "dynasty": "中华民国",
+    "tags": [
+      "黄埔军校",
+      "蒋介石",
+      "周恩来",
+      "军事教育",
+      "革命武装"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-may-thirtieth",
+    "title": "五卅运动",
+    "dateText": "1925年",
+    "startYear": 1925,
+    "summary": "上海工人、学生为抗议日本纱厂资本家枪杀工人顾正红而举行示威，英国巡捕向群众开枪，造成五卅惨案，引发了全国范围的反帝爱国运动高潮。",
+    "type": "运动",
+    "eraName": "国民革命",
+    "dynasty": "民国",
+    "tags": [
+      "五卅",
+      "反帝",
+      "工人运动",
+      "顾正红",
+      "运动"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-northern-expedition",
+    "title": "北伐战争开始",
+    "dateText": "1926年",
+    "startYear": 1926,
+    "summary": "国民革命军出师北伐，打击北洋军阀，推动国家统一的进程。",
+    "type": "战争",
+    "eraName": "国民革命",
+    "dynasty": "民国",
+    "tags": [
+      "国民革命军",
+      "北洋军阀",
+      "统一",
+      "工农"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-april-12-coup",
+    "title": "四一二反革命政变",
+    "dateText": "1927年",
+    "startYear": 1927,
+    "summary": "蒋介石在上海发动反革命政变，大规模屠杀共产党员和工人群众，第一次国共合作破裂。",
+    "type": "革命",
+    "eraName": "国民革命",
+    "dynasty": "中华民国",
+    "tags": [
+      "四一二政变",
+      "蒋介石",
+      "清党",
+      "国共分裂",
+      "大屠杀"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-august-seventh",
+    "title": "八七会议",
+    "dateText": "1927年",
+    "startYear": 1927,
+    "summary": "中共中央在汉口秘密召开紧急会议，总结大革命失败教训，确立土地革命和武装反抗国民党反动派的总方针，毛泽东提出\"枪杆子里出政权\"的著名论断。",
+    "type": "政治",
+    "eraName": "土地革命战争",
+    "dynasty": "民国",
+    "tags": [
+      "八七会议",
+      "土地革命",
+      "武装反抗",
+      "毛泽东",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-nanchang-uprising",
+    "title": "南昌起义",
+    "dateText": "1927年",
+    "startYear": 1927,
+    "summary": "中共领导部队在南昌举行武装起义，打响武装反抗国民党反动派的第一枪，标志着中共独立领导革命战争的开始。",
+    "type": "革命",
+    "eraName": "土地革命战争",
+    "dynasty": "中华民国",
+    "tags": [
+      "南昌起义",
+      "周恩来",
+      "贺龙",
+      "叶挺",
+      "朱德",
+      "建军节"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-nanjing-government",
+    "title": "南京国民政府成立",
+    "dateText": "1927年",
+    "startYear": 1927,
+    "summary": "蒋介石在南京另立国民政府，后实现宁汉合流，形式上统一全国，确立国民党一党专政体制。",
+    "type": "政权",
+    "eraName": "国民革命",
+    "dynasty": "中华民国",
+    "tags": [
+      "南京国民政府",
+      "蒋介石",
+      "宁汉合流",
+      "一党训政",
+      "形式统一"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-qiushou-jinggangshan",
+    "title": "秋收起义与井冈山革命根据地",
+    "dateText": "1927年",
+    "startYear": 1927,
+    "summary": "毛泽东领导秋收起义后率部转向井冈山，创建第一个农村革命根据地，开辟了农村包围城市的革命道路。",
+    "type": "革命",
+    "eraName": "土地革命战争",
+    "dynasty": "中华民国",
+    "tags": [
+      "秋收起义",
+      "井冈山",
+      "农村包围城市",
+      "工农红军",
+      "毛泽东"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-gutian-conference",
+    "title": "古田会议",
+    "dateText": "1929年",
+    "startYear": 1929,
+    "summary": "红四军党的九大在福建古田召开，确立思想建党、政治建军原则和党对军队的绝对领导。",
+    "type": "会议",
+    "eraName": "土地革命战争",
+    "dynasty": "中华民国",
+    "tags": [
+      "古田会议",
+      "思想建党",
+      "政治建军",
+      "党指挥枪",
+      "建军原则"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-chinese-soviet-republic",
+    "title": "中华苏维埃共和国成立",
+    "dateText": "1931年",
+    "startYear": 1931,
+    "summary": "中华苏维埃第一次全国代表大会在江西瑞金召开，成立临时中央政府，是中国第一个全国性工农民主政权。",
+    "type": "政权",
+    "eraName": "土地革命战争",
+    "dynasty": "中华民国",
+    "tags": [
+      "中华苏维埃",
+      "瑞金",
+      "工农政权",
+      "苏维埃",
+      "毛泽东"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-mukden-incident",
+    "title": "九一八事变",
+    "dateText": "1931年",
+    "startYear": 1931,
+    "summary": "日本关东军制造事变，侵占中国东北，局部抗战开始。",
+    "type": "战争",
+    "eraName": "土地革命战争",
+    "dynasty": "民国",
+    "tags": [
+      "日本",
+      "关东军",
+      "东北",
+      "不抵抗"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-long-march",
+    "title": "红军长征",
+    "dateText": "1934年—1936年",
+    "startYear": 1934,
+    "summary": "中央红军从瑞金出发进行战略转移，历经艰险，遵义会议确立毛泽东领导地位，三大主力在会宁胜利会师。",
+    "type": "革命",
+    "eraName": "土地革命战争",
+    "dynasty": "中华民国",
+    "tags": [
+      "长征",
+      "战略转移",
+      "遵义会议",
+      "会宁会师",
+      "革命火种"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-december-ninth",
+    "title": "一二·九运动",
+    "dateText": "1935年",
+    "startYear": 1935,
+    "summary": "北平学生为反对日本侵略华北和国民政府妥协政策举行大规模示威游行，掀起全国抗日救亡运动高潮，促进了抗日民族统一战线的形成。",
+    "type": "运动",
+    "eraName": "全民族抗战",
+    "dynasty": "民国",
+    "tags": [
+      "一二九",
+      "学生运动",
+      "抗日",
+      "救亡",
+      "运动"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-zunyi-conference",
+    "title": "遵义会议",
+    "dateText": "1935年",
+    "startYear": 1935,
+    "summary": "长征途中召开重要会议，确立了新的领导核心，是党和红军的历史转折点。",
+    "type": "会议",
+    "eraName": "土地革命战争",
+    "dynasty": "民国",
+    "tags": [
+      "长征",
+      "红军",
+      "转折",
+      "领导核心"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-xian-incident",
+    "title": "西安事变",
+    "dateText": "1936年",
+    "startYear": 1936,
+    "summary": "张学良、杨虎城发动兵谏，促成国共合作，抗日民族统一战线初步形成。",
+    "type": "事件",
+    "eraName": "全民族抗战",
+    "dynasty": "民国",
+    "tags": [
+      "张学良",
+      "杨虎城",
+      "兵谏",
+      "统一战线"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-anti-japanese-united-front",
+    "title": "抗日民族统一战线正式形成",
+    "dateText": "1937年",
+    "startYear": 1937,
+    "summary": "七七事变后，国共两党正式建立抗日民族统一战线，红军改编为八路军和新四军，全民族抗战局面形成。",
+    "type": "革命",
+    "eraName": "全民族抗战",
+    "dynasty": "中华民国",
+    "tags": [
+      "抗日民族统一战线",
+      "国共第二次合作",
+      "全民族抗战",
+      "八路军",
+      "新四军"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-lugouqiao",
+    "title": "七七事变",
+    "dateText": "1937年",
+    "startYear": 1937,
+    "summary": "日本发动全面侵华战争，中国进入全民族抗战阶段。",
+    "type": "抗战",
+    "eraName": "全民族抗战",
+    "dynasty": "民国",
+    "tags": [
+      "卢沟桥",
+      "全面侵华",
+      "统一战线",
+      "国共合作"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-nanjing-massacre",
+    "title": "南京大屠杀",
+    "dateText": "1937年",
+    "startYear": 1937,
+    "summary": "日军攻占南京后实施有组织的大规模屠杀、强奸和劫掠，遇难人数超过30万，是二战期间最严重的人道主义灾难之一。",
+    "type": "战争",
+    "eraName": "全民族抗战",
+    "dynasty": "中华民国",
+    "tags": [
+      "南京大屠杀",
+      "日军暴行",
+      "南京",
+      "人道主义灾难",
+      "战争罪行"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-taierzhuang",
+    "title": "台儿庄战役",
+    "dateText": "1938年",
+    "startYear": 1938,
+    "summary": "中国军队在台儿庄与日军展开激战，歼敌一万余人，取得抗战以来正面战场的最大胜利，打破了日军不可战胜的神话，极大鼓舞了全国抗战士气。",
+    "type": "战争",
+    "eraName": "全民族抗战",
+    "dynasty": "民国",
+    "tags": [
+      "台儿庄",
+      "抗战",
+      "正面战场",
+      "胜利",
+      "战争"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-hundred-regiments",
+    "title": "百团大战",
+    "dateText": "1940年",
+    "startYear": 1940,
+    "summary": "八路军在华北发动大规模破袭战，参战兵力达105个团，沉重打击日军囚笼政策，提振全国抗战信心。",
+    "type": "战争",
+    "eraName": "全民族抗战",
+    "dynasty": "中华民国",
+    "tags": [
+      "百团大战",
+      "彭德怀",
+      "敌后战场",
+      "八路军",
+      "破袭战"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-chongqing-negotiations",
+    "title": "重庆谈判",
+    "dateText": "1945年",
+    "startYear": 1945,
+    "summary": "毛泽东赴重庆与国民党谈判，签署双十协定，确认和平建国方针，展现中共争取和平的诚意。",
+    "type": "会议",
+    "eraName": "解放战争",
+    "dynasty": "中华民国",
+    "tags": [
+      "重庆谈判",
+      "双十协定",
+      "毛泽东",
+      "蒋介石",
+      "和平建国"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-cpc-seventh-congress",
+    "title": "中共七大",
+    "dateText": "1945年",
+    "startYear": 1945,
+    "summary": "中国共产党第七次全国代表大会在延安召开，确立毛泽东思想为党的指导思想，为抗战胜利和革命胜利奠定思想基础。",
+    "type": "会议",
+    "eraName": "全民族抗战",
+    "dynasty": "中华民国",
+    "tags": [
+      "中共七大",
+      "延安",
+      "毛泽东思想",
+      "党的指导思想",
+      "抗战胜利"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-ww2-victory",
+    "title": "抗日战争胜利",
+    "dateText": "1945年",
+    "startYear": 1945,
+    "summary": "中国人民经过十四年艰苦抗战，终于取得近代以来第一次完全胜利的民族解放战争。",
+    "type": "胜利",
+    "eraName": "全民族抗战",
+    "dynasty": "民国",
+    "tags": [
+      "日本投降",
+      "民族解放",
+      "十四年",
+      "胜利"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-civil-war",
+    "title": "全面内战爆发",
+    "dateText": "1946年",
+    "startYear": 1946,
+    "summary": "国共谈判破裂后，国民党军队进攻解放区，全面内战爆发。",
+    "type": "战争",
+    "eraName": "解放战争",
+    "dynasty": "民国",
+    "tags": [
+      "中原解放区",
+      "国共",
+      "战略反攻",
+      "决战"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-three-major-campaigns",
+    "title": "三大战役",
+    "dateText": "1948年—1949年",
+    "startYear": 1948,
+    "summary": "解放军连续发起辽沈、淮海、平津三大战役，歼灭和改编国民党军主力154万余人，为解放全国奠定基础。",
+    "type": "战争",
+    "eraName": "解放战争",
+    "dynasty": "中华民国",
+    "tags": [
+      "三大战役",
+      "辽沈战役",
+      "淮海战役",
+      "平津战役",
+      "战略决战"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-founding",
+    "title": "开国大典",
+    "dateText": "1949年",
+    "startYear": 1949,
+    "summary": "中华人民共和国成立，中国历史进入新的发展阶段。",
+    "type": "建国",
+    "eraName": "新中国成立与政权巩固",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "新中国",
+      "独立",
+      "国庆",
+      "政权"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-cppc-first-session",
+    "title": "中国人民政治协商会议第一届全体会议",
+    "dateText": "1949年",
+    "startYear": 1949,
+    "summary": "政协一届全会在北平召开，通过《共同纲领》，选举中央人民政府，完成新中国成立的法律和政治准备。",
+    "type": "会议",
+    "eraName": "解放战争",
+    "dynasty": "中华民国",
+    "tags": [
+      "政协一届全会",
+      "开国准备",
+      "共同纲领",
+      "北平",
+      "多党合作"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-crossing-yangtze",
+    "title": "渡江战役",
+    "dateText": "1949年",
+    "startYear": 1949,
+    "summary": "人民解放军突破长江防线，解放南京，国民党政权在大陆统治崩溃。",
+    "type": "战役",
+    "eraName": "解放战争",
+    "dynasty": "民国",
+    "tags": [
+      "长江",
+      "南京",
+      "解放",
+      "新中国"
+    ]
+  },
+  {
+    "sectionId": "modernEarly",
+    "eventId": "modernearly-second-plenum",
+    "title": "七届二中全会",
+    "dateText": "1949年",
+    "startYear": 1949,
+    "summary": "中共中央在西柏坡召开七届二中全会，确定党的工作重心从农村转向城市，提出\"两个务必\"，为夺取全国胜利和建设新中国作了政治上和思想上的准备。",
+    "type": "政治",
+    "eraName": "解放战争",
+    "dynasty": "民国",
+    "tags": [
+      "七届二中全会",
+      "西柏坡",
+      "工作重心",
+      "两个务必",
+      "政治"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-prc-founded",
+    "title": "中华人民共和国成立",
+    "dateText": "1949年",
+    "startYear": 1949,
+    "summary": "新中国成立结束了百年战乱，开启了独立自主的现代国家建设进程。",
+    "type": "建国",
+    "eraName": "现代中国",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "新中国",
+      "建国",
+      "独立",
+      "统一"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-korean-war",
+    "title": "抗美援朝",
+    "dateText": "1950年—1953年",
+    "startYear": 1950,
+    "summary": "中国人民志愿军赴朝作战，保家卫国，打破了美军不可战胜的神话，奠定了新中国在国际上的地位。",
+    "type": "战争",
+    "eraName": "新中国成立与政权巩固",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "抗美援朝",
+      "志愿军",
+      "保家卫国",
+      "朝鲜战争",
+      "国际地位"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-land-reform",
+    "title": "《土地改革法》颁布",
+    "dateText": "1950年",
+    "startYear": 1950,
+    "summary": "新中国颁布法律废除封建土地所有制，实行农民土地所有制。",
+    "type": "改革",
+    "eraName": "新中国成立与政权巩固",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "土地",
+      "农民",
+      "封建制度",
+      "农村"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-first-five-year",
+    "title": "第一个五年计划开始",
+    "dateText": "1953年",
+    "startYear": 1953,
+    "summary": "国家开始有计划的经济建设，集中力量发展重工业。",
+    "type": "建设",
+    "eraName": "社会主义制度建立",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "工业化",
+      "重工业",
+      "计划",
+      "经济"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-first-npc",
+    "title": "第一届全国人民代表大会召开",
+    "dateText": "1954年",
+    "startYear": 1954,
+    "summary": "全国人大一次会议通过第一部宪法，确立人民代表大会制度。",
+    "type": "制度",
+    "eraName": "社会主义制度建立",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "宪法",
+      "人大",
+      "民主",
+      "政治制度"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-three-transforms",
+    "title": "三大改造基本完成",
+    "dateText": "1956年",
+    "startYear": 1956,
+    "summary": "农业、手工业和资本主义工商业的社会主义改造基本完成。",
+    "type": "制度",
+    "eraName": "社会主义制度建立",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "社会主义",
+      "公有制",
+      "农业",
+      "工商业"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-atomic-bomb",
+    "title": "第一颗原子弹爆炸成功",
+    "dateText": "1964年",
+    "startYear": 1964,
+    "summary": "中国自行研制的第一颗原子弹试验成功，国防科技取得重大突破。",
+    "type": "科技",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "核技术",
+      "国防",
+      "罗布泊",
+      "科技"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-dongfanghong-satellite",
+    "title": "东方红一号人造卫星发射成功",
+    "dateText": "1970年",
+    "startYear": 1970,
+    "summary": "中国成功发射第一颗人造地球卫星，成为世界上第五个独立发射卫星的国家，标志着中国进入航天时代。",
+    "type": "技术",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "东方红一号",
+      "人造卫星",
+      "航天",
+      "两弹一星",
+      "科技突破"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-un-restore",
+    "title": "恢复联合国合法席位",
+    "dateText": "1971年",
+    "startYear": 1971,
+    "summary": "联合国大会通过决议，恢复中华人民共和国在联合国的一切合法权利。",
+    "type": "外交",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "联合国",
+      "外交",
+      "国际",
+      "2758号决议"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-us-china-relations",
+    "title": "中美关系正常化",
+    "dateText": "1972年",
+    "startYear": 1972,
+    "summary": "美国总统尼克松访华，中美发表《上海公报》，两国关系开始走向正常化，改变了冷战时期的国际格局。",
+    "type": "外交",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "尼克松访华",
+      "上海公报",
+      "中美关系",
+      "外交突破",
+      "冷战格局"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-gaokao-restore",
+    "title": "高考制度恢复",
+    "dateText": "1977年",
+    "startYear": 1977,
+    "summary": "中断十一年的全国高等学校统一招生考试制度恢复，改变了无数青年的命运，成为改革开放前夜最重要的社会转折之一。",
+    "type": "改革",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "高考恢复",
+      "教育",
+      "人才选拔",
+      "社会转折",
+      "知识改变命运"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-household-contract",
+    "title": "家庭联产承包责任制推行",
+    "dateText": "1978年起",
+    "startYear": 1978,
+    "summary": "安徽凤阳小岗村率先实行大包干，随后家庭联产承包责任制在全国推广，解放了农村生产力，拉开了中国农村改革的序幕。",
+    "type": "改革",
+    "eraName": "改革开放起步",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "家庭联产承包",
+      "大包干",
+      "小岗村",
+      "农村改革",
+      "生产力"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-third-plenum",
+    "title": "十一届三中全会召开",
+    "dateText": "1978年",
+    "startYear": 1978,
+    "summary": "会议作出把党和国家工作中心转移到经济建设上来的历史性决策。",
+    "type": "改革",
+    "eraName": "改革开放起步",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "经济建设",
+      "改革开放",
+      "历史转折",
+      "中心转移"
+    ]
+  },
+  {
+    "sectionId": "overview",
+    "eventId": "overview-reform-opening",
+    "title": "改革开放",
+    "dateText": "1978年",
+    "startYear": 1978,
+    "summary": "改革开放将国家重心转向经济建设，深刻改变了中国的面貌与世界格局。",
+    "type": "改革",
+    "eraName": "现代中国",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "改革",
+      "开放",
+      "现代化",
+      "经济"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-sez",
+    "title": "经济特区设立",
+    "dateText": "1980年",
+    "startYear": 1980,
+    "summary": "深圳、珠海、汕头、厦门设立经济特区，对外开放迈出关键步伐。",
+    "type": "改革",
+    "eraName": "改革开放起步",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "深圳",
+      "对外开放",
+      "外资",
+      "特区"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-1982-constitution",
+    "title": "现行宪法通过",
+    "dateText": "1982年",
+    "startYear": 1982,
+    "summary": "全国人大通过新宪法，确立国家根本法框架，法治建设进入新阶段。",
+    "type": "制度",
+    "eraName": "改革开放起步",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "宪法",
+      "法治",
+      "人大",
+      "修正"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-pudong-development",
+    "title": "浦东开发开放",
+    "dateText": "1990年",
+    "startYear": 1990,
+    "summary": "中共中央宣布开发开放上海浦东，浦东从一片农田迅速成长为国际金融和贸易中心，成为中国改革开放深化的标志性工程。",
+    "type": "改革",
+    "eraName": "改革开放起步",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "浦东开发",
+      "上海",
+      "改革开放",
+      "国际金融中心",
+      "经济转型"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-market-economy",
+    "title": "社会主义市场经济体制改革目标确立",
+    "dateText": "1992年",
+    "startYear": 1992,
+    "summary": "明确建立社会主义市场经济体制的改革目标，经济体制改革方向更加清晰。",
+    "type": "改革",
+    "eraName": "社会主义市场经济发展",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "1992",
+      "体制",
+      "市场机制",
+      "资源配置"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-internet-access",
+    "title": "中国接入国际互联网",
+    "dateText": "1994年",
+    "startYear": 1994,
+    "summary": "中国正式接入国际互联网，开启了信息时代的大门。此后互联网深刻改变了中国的经济形态、社会结构和日常生活。",
+    "type": "技术",
+    "eraName": "社会主义市场经济发展",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "互联网",
+      "信息时代",
+      "数字经济",
+      "科技革命",
+      "网络"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-hong-kong-return",
+    "title": "香港回归",
+    "dateText": "1997年",
+    "startYear": 1997,
+    "summary": "中国政府对香港恢复行使主权，一国两制方针付诸实践。",
+    "type": "统一",
+    "eraName": "社会主义市场经济发展",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "香港",
+      "一国两制",
+      "主权",
+      "祖国统一"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-macau-return",
+    "title": "澳门回归",
+    "dateText": "1999年",
+    "startYear": 1999,
+    "summary": "中国政府对澳门恢复行使主权，澳门特别行政区成立。",
+    "type": "统一",
+    "eraName": "社会主义市场经济发展",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "澳门",
+      "主权",
+      "特别行政区",
+      "殖民"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-wto",
+    "title": "中国加入世界贸易组织",
+    "dateText": "2001年",
+    "startYear": 2001,
+    "summary": "中国正式成为世界贸易组织成员，对外开放进入新阶段。",
+    "type": "开放",
+    "eraName": "社会主义市场经济发展",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "WTO",
+      "全球化",
+      "外贸",
+      "国际规则"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-beijing-olympics",
+    "title": "北京奥运会举办",
+    "dateText": "2008年",
+    "startYear": 2008,
+    "summary": "中国首次举办夏季奥运会，展示国家发展成就和开放形象。",
+    "type": "社会",
+    "eraName": "全面建设小康社会",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "奥运",
+      "体育",
+      "北京",
+      "国际形象"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-high-speed-rail",
+    "title": "高速铁路网建设",
+    "dateText": "2008年起",
+    "startYear": 2008,
+    "summary": "京津城际铁路开通标志着中国进入高铁时代。此后中国高铁里程迅速跃居世界第一，成为世界上规模最大、运营速度最快的高铁网络。",
+    "type": "工程",
+    "eraName": "全面建设小康社会",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "高铁",
+      "高速铁路",
+      "基础设施",
+      "交通革命",
+      "工程奇迹"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-18th-congress",
+    "title": "十八大召开",
+    "dateText": "2012年",
+    "startYear": 2012,
+    "summary": "中国发展进入新时代，国家治理和现代化进程继续推进。",
+    "type": "会议",
+    "eraName": "新时代",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "新时代",
+      "治理",
+      "现代化",
+      "复兴"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-poverty-alleviation",
+    "title": "脱贫攻坚目标任务完成",
+    "dateText": "2020年",
+    "startYear": 2020,
+    "summary": "中国如期完成脱贫攻坚目标任务，区域性整体贫困得到解决。",
+    "type": "社会",
+    "eraName": "新时代",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "脱贫",
+      "减贫",
+      "农村",
+      "全面小康"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-20th-congress",
+    "title": "二十大召开",
+    "dateText": "2022年",
+    "startYear": 2022,
+    "summary": "大会提出以中国式现代化全面推进中华民族伟大复兴的使命任务。",
+    "type": "会议",
+    "eraName": "新时代",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "中国式现代化",
+      "复兴",
+      "战略",
+      "新时代"
+    ]
+  },
+  {
+    "sectionId": "modern",
+    "eventId": "modern-space-station",
+    "title": "中国空间站全面建成",
+    "dateText": "2022年",
+    "startYear": 2022,
+    "summary": "中国空间站天宫完成在轨建造，中国成为世界上第三个独立建造和运营空间站的国家，标志着中国航天事业进入新阶段。",
+    "type": "技术",
+    "eraName": "新时代",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "中国空间站",
+      "天宫",
+      "航天",
+      "载人航天",
+      "科技自立"
+    ]
+  },
+  {
+    "eventId": "modern-tibet-liberation",
+    "sectionId": "modern",
+    "title": "西藏和平解放",
+    "dateText": "1951年",
+    "startYear": 1951,
+    "summary": "人民解放军进驻拉萨，西藏实现和平解放，维护了国家统一和领土完整。",
+    "type": "统一",
+    "eraName": "新中国成立与政权巩固",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "西藏",
+      "和平解放",
+      "国家统一",
+      "边疆"
+    ]
+  },
+  {
+    "eventId": "modern-regional-autonomy",
+    "sectionId": "modern",
+    "title": "《民族区域自治实施纲要》颁布",
+    "dateText": "1952年",
+    "startYear": 1952,
+    "summary": "中央人民政府颁布实施纲要，以法律形式确立民族区域自治制度框架。",
+    "type": "制度",
+    "eraName": "新中国成立与政权巩固",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "民族区域自治",
+      "制度",
+      "少数民族",
+      "国家建构"
+    ]
+  },
+  {
+    "eventId": "modern-daqing-oilfield",
+    "sectionId": "modern",
+    "title": "大庆油田开发",
+    "dateText": "1959年",
+    "startYear": 1959,
+    "summary": "大庆油田的发现和开发，使中国摘掉了\"贫油国\"的帽子，奠定了现代石油工业基础。",
+    "type": "工业",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "大庆油田",
+      "石油",
+      "工业化",
+      "能源"
+    ]
+  },
+  {
+    "eventId": "modern-insulin-synthesis",
+    "sectionId": "modern",
+    "title": "人工合成结晶牛胰岛素",
+    "dateText": "1965年",
+    "startYear": 1965,
+    "summary": "中国科学家首次人工合成具有生物活性的结晶牛胰岛素，标志着人类在认识生命奥秘上迈出重要一步。",
+    "type": "科技",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "胰岛素",
+      "生物科学",
+      "人工合成",
+      "基础研究"
+    ]
+  },
+  {
+    "eventId": "modern-nanjing-bridge",
+    "sectionId": "modern",
+    "title": "南京长江大桥建成通车",
+    "dateText": "1968年",
+    "startYear": 1968,
+    "summary": "中国第一座自主设计建造的双层公铁两用桥通车，打破了外国专家\"南京江面上不能建桥\"的断言。",
+    "type": "工程",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "南京长江大桥",
+      "工程",
+      "自力更生",
+      "交通"
+    ]
+  },
+  {
+    "eventId": "modern-china-japan-relations",
+    "sectionId": "modern",
+    "title": "中日邦交正常化",
+    "dateText": "1972年",
+    "startYear": 1972,
+    "summary": "中日两国正式建立外交关系，结束了战后长期敌对状态，开启了东亚国际关系的新格局。",
+    "type": "外交",
+    "eraName": "社会主义建设探索",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "中日关系",
+      "外交",
+      "东亚",
+      "田中角荣"
+    ]
+  },
+  {
+    "eventId": "modern-shenzhou-five",
+    "sectionId": "modern",
+    "title": "神舟五号载人航天成功",
+    "dateText": "2003年",
+    "startYear": 2003,
+    "summary": "中国首次载人航天飞行成功，杨利伟成为首位进入太空的中国人，中国成为第三个独立掌握载人航天技术的国家。",
+    "type": "科技",
+    "eraName": "全面建设小康社会",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "神舟五号",
+      "载人航天",
+      "杨利伟",
+      "航天工程"
+    ]
+  },
+  {
+    "eventId": "modern-qinghai-tibet-railway",
+    "sectionId": "modern",
+    "title": "青藏铁路全线通车",
+    "dateText": "2006年",
+    "startYear": 2006,
+    "summary": "世界上海拔最高、线路最长的高原铁路全线通车，结束了西藏不通铁路的历史。",
+    "type": "工程",
+    "eraName": "全面建设小康社会",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "青藏铁路",
+      "西藏",
+      "交通",
+      "高原工程"
+    ]
+  },
+  {
+    "eventId": "modern-beidou-navigation",
+    "sectionId": "modern",
+    "title": "北斗卫星导航系统建成",
+    "dateText": "2020年",
+    "startYear": 2020,
+    "summary": "北斗三号全球卫星导航系统正式开通，中国建成自主可控的全球卫星导航体系。",
+    "type": "技术",
+    "eraName": "新时代",
+    "dynasty": "中华人民共和国",
+    "tags": [
+      "北斗",
+      "卫星导航",
+      "自主创新",
+      "基础设施"
+    ]
+  }
+]
