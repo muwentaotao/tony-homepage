@@ -5,6 +5,15 @@ import Modal from './Modal';
 
 const entries = [
   {
+    title: '历史梗挑战',
+    subtitle: 'History Meme',
+    description: '历史名场面，一眼判定。不计分，只看你有多懂梗。',
+    to: '/history-meme',
+    icon: (
+      <span className="history-entry-icon" aria-hidden="true">史</span>
+    ),
+  },
+  {
     title: '2026 届毕业留言',
     subtitle: 'Graduation 2026',
     description: '老师写给你的专属毕业留言，只属于你。',
@@ -74,14 +83,16 @@ export default function EntryCards() {
         }`}
       >
         <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
             {entries.map((entry) => {
               if (entry.to) {
                 return (
                   <Link
                     key={entry.title}
                     to={entry.to}
-                    className="glass-card rounded-xl p-6 cursor-pointer group block"
+                    className={`glass-card rounded-xl p-6 cursor-pointer group block ${
+                      entry.to === '/history-meme' ? 'history-entry-card' : ''
+                    }`}
                   >
                     <div className="text-tony-ice mb-4 group-hover:text-tony-text transition-colors duration-300">
                       {entry.icon}

@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import TravelPage from './pages/TravelPage';
 import GraduationPage from './pages/GraduationPage';
 import GraduationAdminPage from './pages/GraduationAdminPage';
+import HistoryMemePage from './pages/HistoryMemePage';
 
 function App() {
   const location = useLocation();
@@ -24,7 +25,7 @@ function App() {
       />
 
       {/* 导航栏 */}
-      <Navbar />
+      {location.pathname !== '/history-meme' && <Navbar />}
 
       {/* 页面内容 */}
       <div className="relative z-10">
@@ -33,6 +34,7 @@ function App() {
           <Route path="/travel" element={<TravelPage />} />
           <Route path="/graduation" element={<GraduationPage />} />
           <Route path="/graduation/admin" element={<GraduationAdminPage />} />
+          <Route path="/history-meme" element={<HistoryMemePage />} />
         </Routes>
       </div>
 
